@@ -1,0 +1,44 @@
+﻿  list.c
+  random.c
+  statistics.c
+  util.c
+  fil.c
+  fil_nand.c
+  fil_request.c
+  nsc_driver.c
+  hil.c
+  host_lld.c
+  nvme_admin_cmd.c
+  nvme_identify.c
+  nvme_io_cmd.c
+  nvme_main.c
+  cosmos_plus_system.c
+  main.c
+  osal.c
+  cosmos_win.c
+  test_main.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\test\test_main.c(821): warning C4047: '=': 'unsigned int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\test\test_main.c(853): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\test\test_main.c(853): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  test_nvme_request.c
+  코드를 생성하고 있습니다...
+  ioub_activeblock.cpp
+  ioub_block.cpp
+  ioub_bufferpool.cpp
+  ioub_external_interface.cpp
+  ioub_garbagecollector.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_garbagecollector.cpp(110): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  ioub_global.cpp
+  ioub_hdma.cpp
+  ioub_meta.cpp
+  ioub_request.cpp
+  ioub_request_gc.cpp
+  ioub_request_hil.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(602): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(613): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(635): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(1305): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ioub_request_meta.cpp
+  ioub_vnand.cpp
+  코드를 생성하고 있습니다...
+  vs2017_IOUB.vcxproj -> C:\Users\Kyuhwa\Desktop\Cosmos-IOUB\Cosmos_SSD-IOUB\Build\vs2017_IOUB\Debug\vs2017_IOUB.exe

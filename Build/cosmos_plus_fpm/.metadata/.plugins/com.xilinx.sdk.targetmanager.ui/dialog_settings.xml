@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="OpenSSD2.bit" key="OpenSSD2-8C8W-bitFile"/>
+	<item value="Auto Detect" key="OpenSSD2-8C8W-device"/>
+	<item value="OpenSSD2-8C8W" key="programfpga.hwplatform"/>
+	<item value="Local" key="OpenSSD2-8C8W-target"/>
+	<item value="false" key="OpenSSD2-8C8W-partial_bit"/>
+	<item value="OpenSSD2.mmi" key="OpenSSD2-8C8W-bmmFile"/>
+</section>

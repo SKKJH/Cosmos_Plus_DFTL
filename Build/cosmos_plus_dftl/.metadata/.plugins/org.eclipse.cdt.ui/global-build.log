@@ -1,0 +1,61 @@
+17:33:59 **** Incremental Build of configuration Debug for project dftl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+17:34:00 Build Finished (took 515ms)
+
+17:34:00 **** Incremental Build of configuration Release for project dftl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -DCOSMOS_PLUS=1 -DDFTL=1 -Wall -O2 -I../../dftl_bsp/ps7_cortexa9_0/include -I../../../../common -I../../../../fil -I../../../../ftl -I../../../../ftl/dftl -I../../../../hil -I../../../../hil/nvme -I../../../../target -I../../../../target/cosmos_plus -c -fmessage-length=0 -MT"src/ftl/dftl/dftl_global.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/dftl/dftl_global.d" -MT"src/ftl/dftl/dftl_global.o" -o "src/ftl/dftl/dftl_global.o" "C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp"
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp: In member function 'virtual VOID DFTL_GLOBAL::CallBack(FTL_REQUEST_ID)':
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp:189:34: warning: comparison of integer expressions of different signedness: 'UINT32' {aka 'unsigned int'} and 'INT32' {aka 'int'} [-Wsign-compare]
+   if (pstRequest->GetDoneCount() == pstRequest->GetLPNCount())
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp: In member function 'BUFFER_ENTRY* Read_Cache::get_buffer_by_VPPN(UINT32)':
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp:396:37: warning: comparison of integer expressions of different signedness: 'int' and 'UINT32' {aka 'unsigned int'} [-Wsign-compare]
+  for (int iter = start_offset; iter < end_offset; iter++)
+                                ~~~~~^~~~~~~~~~~~
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp: In member function 'VOID Read_Cache::free_buffer_by_VPPN(UINT32)':
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp:413:37: warning: comparison of integer expressions of different signedness: 'int' and 'UINT32' {aka 'unsigned int'} [-Wsign-compare]
+  for (int iter = start_offset; iter < end_offset; iter++)
+                                ~~~~~^~~~~~~~~~~~
+In file included from C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_internal.h:61,
+                 from C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp:19:
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_profile.h: At global scope:
+C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_profile.h:42:15: warning: 'DFTL_profile' defined but not used [-Wunused-variable]
+ static UINT32 DFTL_profile[Prof_Total_Num];
+               ^~~~~~~~~~~~
+'Finished building: C:/Users/User/Desktop/Cosmos_SSD-IOUB/ftl/dftl/dftl_global.cpp'
+' '
+'Building target: dftl.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../dftl_bsp/ps7_cortexa9_0/lib -o "dftl.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/hil/hil.o  ./src/ftl/dftl/dftl_activeblock.o ./src/ftl/dftl/dftl_block.o ./src/ftl/dftl/dftl_bufferpool.o ./src/ftl/dftl/dftl_external_interface.o ./src/ftl/dftl/dftl_garbagecollector.o ./src/ftl/dftl/dftl_global.o ./src/ftl/dftl/dftl_hdma.o ./src/ftl/dftl/dftl_meta.o ./src/ftl/dftl/dftl_profile.o ./src/ftl/dftl/dftl_request.o ./src/ftl/dftl/dftl_request_gc.o ./src/ftl/dftl/dftl_request_hil.o ./src/ftl/dftl/dftl_request_meta.o ./src/ftl/dftl/dftl_vnand.o  ./src/ftl/template.o ./src/ftl/template_cpp.o  ./src/fil/fil.o ./src/fil/fil_nand.o ./src/fil/fil_request.o ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o ./src/common/statistics.o ./src/common/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: dftl.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dftl.elf  |tee "dftl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 109796	   3524	  33000	 146320	  23b90	dftl.elf
+'Finished building: dftl.elf.size'
+' '
+17:34:06 **** Incremental Build of configuration Debug for project dftl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:36:37 **** Incremental Build of configuration Debug for project dftl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:49:21 **** Incremental Build of configuration Debug for project dftl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

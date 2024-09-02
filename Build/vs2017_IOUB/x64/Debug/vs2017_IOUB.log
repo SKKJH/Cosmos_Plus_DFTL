@@ -1,0 +1,183 @@
+﻿  list.c
+  random.c
+  statistics.c
+  util.c
+  fil.c
+  fil_nand.c
+  fil_request.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\fil_request.c(91): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\fil_request.c(267): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\fil_request.c(319): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\fil_request.c(362): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+  nsc_driver.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(58): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(59): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(65): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(66): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(67): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(69): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(70): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(103): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(108): warning C4311: '형식 캐스트': 'unsigned int *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(122): warning C4311: '형식 캐스트': 'volatile unsigned int [4]'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(123): warning C4311: '형식 캐스트': 'volatile unsigned int *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(151): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(152): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(153): warning C4311: '형식 캐스트': 'unsigned int *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(154): warning C4311: '형식 캐스트': 'unsigned int *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(172): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(173): warning C4311: '형식 캐스트': 'unsigned int *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(191): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(192): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\fil\nsc_driver.c(218): warning C4311: '형식 캐스트': 'unsigned int *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+  hil.c
+  host_lld.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(319): warning C4311: '형식 캐스트': 'char *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(321): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(384): warning C4311: '형식 캐스트': 'char *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(385): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(386): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(401): warning C4311: '형식 캐스트': 'char *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(402): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\host_lld.c(403): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'volatile unsigned int *'(으)로의 변환입니다.
+  nvme_admin_cmd.c
+  nvme_identify.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\nvme_identify.c(64): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'ADMIN_IDENTIFY_CONTROLLER *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\hil\nvme\nvme_identify.c(151): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'ADMIN_IDENTIFY_NAMESPACE *'(으)로의 변환입니다.
+  nvme_io_cmd.c
+  nvme_main.c
+  cosmos_plus_system.c
+  main.c
+  osal.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\target\osal.c(50): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\target\osal.c(62): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\target\osal.c(116): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'void *'(으)로의 변환입니다.
+  cosmos_win.c
+  test_main.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\test\test_main.c(821): warning C4047: '=': 'unsigned int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\test\test_main.c(853): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\test\test_main.c(853): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  test_nvme_request.c
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\test\test_nvme_request.c(72): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+  코드를 생성하고 있습니다...
+  ioub_activeblock.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(68): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(68): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(68): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'void *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(72): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(72): warning C4302: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(78): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(78): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(78): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'void *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(96): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(96): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(98): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'UINT32 *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(102): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(102): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(104): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'UINT32 *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(131): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(131): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(137): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'UINT32 *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(160): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(160): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(160): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'void *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(163): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(163): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(163): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'void *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(168): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(168): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(170): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'UINT32 *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(211): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(211): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(211): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'void *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(214): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(214): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(214): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'void *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(219): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(219): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(221): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'UINT32 *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(682): warning C4311: '형식 캐스트': 'VOID *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(682): warning C4302: '형식 캐스트': 'VOID *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(682): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'VOID *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(685): warning C4311: '형식 캐스트': 'VOID *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(685): warning C4302: '형식 캐스트': 'VOID *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(685): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'VOID *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(1108): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_activeblock.cpp(1108): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+  ioub_block.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_block.cpp(228): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_block.cpp(228): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+  ioub_bufferpool.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_bufferpool.cpp(75): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_bufferpool.cpp(75): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+  ioub_external_interface.cpp
+  ioub_garbagecollector.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_garbagecollector.cpp(110): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_garbagecollector.cpp(204): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_garbagecollector.cpp(204): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+  ioub_global.cpp
+  ioub_hdma.cpp
+  ioub_meta.cpp
+  ioub_request.cpp
+  ioub_request_gc.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_gc.cpp(324): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_gc.cpp(324): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_gc.cpp(405): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_gc.cpp(405): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_gc.cpp(425): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_gc.cpp(425): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_gc.cpp(445): warning C4244: 'return': '__int64'에서 'INT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ioub_request_hil.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(80): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(80): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(100): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(100): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(259): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(259): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(276): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(276): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(293): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(293): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(313): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(313): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(330): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(330): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(347): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(347): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(364): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(364): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(405): warning C4244: 'return': '__int64'에서 'INT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(411): warning C4244: 'return': '__int64'에서 'INT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(602): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(613): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(635): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(675): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(675): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(677): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(677): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(692): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'UINT32 *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(704): warning C4311: '형식 캐스트': 'unsigned int **'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(704): warning C4302: '형식 캐스트': 'unsigned int **'에서 'unsigned int'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(705): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'unsigned int **'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(762): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(762): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(840): warning C4311: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(840): warning C4302: '형식 캐스트': 'void *'에서 'unsigned int'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(846): warning C4311: '형식 캐스트': 'unsigned int **'에서 'unsigned int'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(846): warning C4302: '형식 캐스트': 'unsigned int **'에서 'unsigned int'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(847): warning C4312: '형식 캐스트': 'unsigned int'에서 더 큰 'unsigned int **'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_hil.cpp(1305): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ioub_request_meta.cpp
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(112): warning C4311: '형식 캐스트': 'void *'에서 'UINT32'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(112): warning C4302: '형식 캐스트': 'void *'에서 'UINT32'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(116): warning C4312: '형식 캐스트': 'UINT32'에서 더 큰 'VOID *'(으)로의 변환입니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(331): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(331): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(413): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(413): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(430): warning C4311: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 포인터가 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(430): warning C4302: '형식 캐스트': 'list_head *'에서 'unsigned long'(으)로 잘립니다.
+c:\users\kyuhwa\desktop\cosmos-ioub\cosmos_ssd-ioub\ftl\ioub\ioub_request_meta.cpp(452): warning C4244: 'return': '__int64'에서 'INT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ioub_vnand.cpp
+  코드를 생성하고 있습니다...
+  vs2017_IOUB.vcxproj -> C:\Users\Kyuhwa\Desktop\Cosmos-IOUB\Cosmos_SSD-IOUB\Build\vs2017_IOUB\x64\Debug\vs2017_IOUB.exe

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="OpenSSD2-8C8W-Prebuild-device"/>
+	<item value="false" key="OpenSSD2-8C8W-Prebuild-partial_bit"/>
+	<item value="OpenSSD2.mmi" key="OpenSSD2-8C8W-Prebuild-bmmFile"/>
+	<item value="OpenSSD2-8C8W-Prebuild" key="programfpga.hwplatform"/>
+	<item value="Local" key="OpenSSD2-8C8W-Prebuild-target"/>
+	<item value="OpenSSD2.bit" key="OpenSSD2-8C8W-Prebuild-bitFile"/>
+</section>

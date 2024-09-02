@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 15 resources" deleteContents="false" description="Delete 15 resources" element1="/ramftl/src/hil/debug.h" element10="/ramftl/src/hil/nvme_identify.h" element11="/ramftl/src/hil/nvme_io_cmd.c" element12="/ramftl/src/hil/nvme_io_cmd.h" element13="/ramftl/src/hil/nvme_main.c" element14="/ramftl/src/hil/nvme_main.h" element15="/ramftl/src/hil/nvme.h" element2="/ramftl/src/hil/hil.c" element3="/ramftl/src/hil/hil.h" element4="/ramftl/src/hil/host_lld.c" element5="/ramftl/src/hil/host_lld.h" element6="/ramftl/src/hil/io_access.h" element7="/ramftl/src/hil/nvme_admin_cmd.c" element8="/ramftl/src/hil/nvme_admin_cmd.h" element9="/ramftl/src/hil/nvme_identify.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="15" stamp="1541567085596"/>
+</session>

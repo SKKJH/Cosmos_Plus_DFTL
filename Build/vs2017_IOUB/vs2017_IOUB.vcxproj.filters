@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{04fe651b-1abf-44f2-953b-81820687169d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fil">
+      <UniqueIdentifier>{69eaa2f9-aa0a-49b4-974d-96ebe6ae849e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ftl">
+      <UniqueIdentifier>{624b972f-7f8c-4d49-9fd3-26045d825b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hil">
+      <UniqueIdentifier>{05053c42-aecf-4881-a107-3816be2ec2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hil\nvme">
+      <UniqueIdentifier>{4a78ae9c-5c27-4fe6-a952-d63bf172a938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target">
+      <UniqueIdentifier>{5ff0c5e0-cf1d-4962-a389-0d3666e7e227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\cosmos_plus">
+      <UniqueIdentifier>{5fbbcca8-5cec-4f81-8b66-5aff19f2939e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\win">
+      <UniqueIdentifier>{92c85313-b185-4ae1-aa65-29910e3bdca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\cosmos_plus\ps7_cortexa9_0">
+      <UniqueIdentifier>{abddb74e-8f5f-4c4d-8adf-e4cc737c44c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\cosmos_plus\ps7_cortexa9_0\include">
+      <UniqueIdentifier>{864835b4-8364-469b-bd56-540457722ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\cosmos_plus\ps7_cortexa9_0\libsrc">
+      <UniqueIdentifier>{b6e33326-494e-4505-9770-ff3097fb748a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\cosmos_plus\ps7_cortexa9_0\libsrc\standalone_v6_7">
+      <UniqueIdentifier>{987b2ec9-5c76-4233-97ae-125d461bb533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\cosmos_plus\ps7_cortexa9_0\libsrc\standalone_v6_7\src">
+      <UniqueIdentifier>{b1e9610d-5bca-4fb8-870c-9620ee020187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{52004d11-ebf2-4237-a89c-79cea034d567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ftl\ioub">
+      <UniqueIdentifier>{f213bbdd-8988-406f-81d8-808b7edcbdad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\cosmos_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\debug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\random.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\statistics.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fil\fil_nand.h">
+      <Filter>fil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fil\fil_request.h">
+      <Filter>fil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fil\nsc_driver.h">
+      <Filter>fil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fil\fil.h">
+      <Filter>fil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fil\fil_config.h">
+      <Filter>fil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ftl.h">
+      <Filter>ftl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\hil_config.h">
+      <Filter>hil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\hil.h">
+      <Filter>hil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_admin_cmd.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_identify.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_io_cmd.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_main.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\host_lld.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\io_access.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\osal.h">
+      <Filter>target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\cosmos_plus_global_config.h">
+      <Filter>target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\win\xil_cache.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\win\xil_exception.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\win\xil_mmu.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\win\xuartps_hw.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\cosmos_plus\cosmos_plus_memory_map.h">
+      <Filter>target\cosmos_plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\cosmos_plus\cosmos_plus_system.h">
+      <Filter>target\cosmos_plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\cosmos_plus\ps7_cortexa9_0\include\xil_printf.h">
+      <Filter>target\cosmos_plus\ps7_cortexa9_0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\cosmos_plus\ps7_cortexa9_0\include\xscugic.h">
+      <Filter>target\cosmos_plus\ps7_cortexa9_0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\test_nvme_request.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\test_main.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_garbagecollector.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_global.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_hdma.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_internal.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_meta.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_request.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_request_gc.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_request_hil.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_request_meta.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_types.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_vnand.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_activeblock.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_block.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_bufferpool.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_config.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ioub\ioub_external_interface.h">
+      <Filter>ftl\ioub</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\list.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\random.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\statistics.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\util.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fil\fil_nand.c">
+      <Filter>fil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fil\fil_request.c">
+      <Filter>fil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fil\nsc_driver.c">
+      <Filter>fil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fil\fil.c">
+      <Filter>fil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\hil.c">
+      <Filter>hil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_admin_cmd.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_identify.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_io_cmd.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_main.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\host_lld.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Target\main.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Target\osal.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Target\win\cosmos_win.c">
+      <Filter>target\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Target\cosmos_plus\cosmos_plus_system.c">
+      <Filter>target\cosmos_plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\test_nvme_request.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\test_main.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_garbagecollector.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_global.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_hdma.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_meta.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_request.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_request_gc.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_request_hil.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_request_meta.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_vnand.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_activeblock.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_block.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_bufferpool.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ioub\ioub_external_interface.cpp">
+      <Filter>ftl\ioub</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\common\statistics.c~">
+      <Filter>common</Filter>
+    </None>
+    <None Include="..\..\Target\win\bsp_windows.hl">
+      <Filter>target\win</Filter>
+    </None>
+  </ItemGroup>
+</Project>

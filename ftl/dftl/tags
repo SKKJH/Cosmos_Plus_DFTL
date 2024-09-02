@@ -1,0 +1,755 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/kjh/Cosmos_SSD-IOUB/ftl/dftl/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ACTIVE_BLOCK	dftl_activeblock.cpp	/^ACTIVE_BLOCK::ACTIVE_BLOCK(VOID)$/;"	f	class:ACTIVE_BLOCK
+ACTIVE_BLOCK	dftl_activeblock.h	/^class ACTIVE_BLOCK$/;"	c
+ACTIVE_BLOCK_BUFFERING_COUNT	dftl_config.h	/^#define ACTIVE_BLOCK_BUFFERING_COUNT	/;"	d
+ACTIVE_BLOCK_BUFFERING_LPN_COUNT	dftl_config.h	/^#define ACTIVE_BLOCK_BUFFERING_LPN_COUNT	/;"	d
+ACTIVE_BLOCK_COUNT_PER_STREAM	dftl_config.h	/^#define ACTIVE_BLOCK_COUNT_PER_STREAM	/;"	d
+ACTIVE_BLOCK_MGR	dftl_activeblock.h	/^class ACTIVE_BLOCK_MGR$/;"	c
+ADDR_PRINT_PROFILE	dftl_global.h	/^#define ADDR_PRINT_PROFILE	/;"	d
+Add	dftl_activeblock.cpp	/^BUFFERING_LPN::Add(UINT32 nLPN)$/;"	f	class:BUFFERING_LPN	typeref:typename:VOID
+Add	dftl_activeblock.cpp	/^PROGRAM_UNIT::Add(VOID* pstRequest, UINT32 nVPPN, IOTYPE eBlockType, IOTYPE eRequestType)$/;"	f	class:PROGRAM_UNIT	typeref:typename:VOID
+AddToDoneQ	dftl_request_gc.cpp	/^GC_REQUEST_INFO::AddToDoneQ(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+AddToDoneQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AddToDoneQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+AddToDoneQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::AddToDoneQ(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+AddToDoneQ_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AddToDoneQ_per_way(HIL_REQUEST_PER_WAY* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+AddToGCRequestWaitQ	dftl_request.h	/^	VOID		AddToGCRequestWaitQ(GC_REQUEST* pstRequest)	{	m_stGCRequestInfo.AddToWaitQ(pstRequest);	}$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+AddToHDMAIssuedQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AddToHDMAIssuedQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+AddToHILRequestWaitQ	dftl_request.h	/^	VOID AddToHILRequestWaitQ(HIL_REQUEST* pstRequest)	{	m_stHILRequestInfo.AddToWaitQ(pstRequest);/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+AddToHILRequestWaitQ_per_way	dftl_request.h	/^	VOID AddToHILRequestWaitQ_per_way(HIL_REQUEST_PER_WAY *pstRequest, INT32 channel, INT32 way) { /;"	f	class:REQUEST_MGR	typeref:typename:VOID
+AddToIssuedQ	dftl_request_gc.cpp	/^GC_REQUEST_INFO::AddToIssuedQ(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+AddToIssuedQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AddToIssuedQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+AddToIssuedQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::AddToIssuedQ(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+AddToIssuedQ_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AddToIssuedQ_per_way(HIL_REQUEST_PER_WAY* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+AddToWaitQ	dftl_request_gc.cpp	/^GC_REQUEST_INFO::AddToWaitQ(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+AddToWaitQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AddToWaitQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+AddToWaitQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::AddToWaitQ(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+AddToWaitQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::AddToWaitQ(META_REQUEST* pstRequest, UINT32 channel, UINT32 way)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+AddToWaitQ_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AddToWaitQ_per_way(HIL_REQUEST_PER_WAY* pstRequest, INT32 channel, INT32 way)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+Allocate	dftl_block.cpp	/^BLOCK_MGR::Allocate(UINT32 channel, UINT32 way, BOOL bUser, BOOL bGC, BOOL bMeta)$/;"	f	class:BLOCK_MGR	typeref:typename:UINT32
+Allocate	dftl_bufferpool.cpp	/^BUFFER_MGR::Allocate(VOID)$/;"	f	class:BUFFER_MGR	typeref:typename:BUFFER_ENTRY *
+AllocateBuf	dftl_request_meta.cpp	/^META_REQUEST::AllocateBuf(VOID)$/;"	f	class:META_REQUEST	typeref:typename:BOOL
+AllocateGCRequest	dftl_request.h	/^	GC_REQUEST* AllocateGCRequest(VOID)						{	return m_stGCRequestInfo.AllocateRequest();	}$/;"	f	class:REQUEST_MGR	typeref:typename:GC_REQUEST *
+AllocateHILRequest	dftl_request.h	/^	HIL_REQUEST* AllocateHILRequest(VOID)				{	return m_stHILRequestInfo.AllocateRequest();	}$/;"	f	class:REQUEST_MGR	typeref:typename:HIL_REQUEST *
+AllocateMetaRequest	dftl_request.h	/^	META_REQUEST* AllocateMetaRequest(VOID)					{	return m_stMetaRequestInfo.AllocateRequest();	}$/;"	f	class:REQUEST_MGR	typeref:typename:META_REQUEST *
+AllocateRequest	dftl_request_gc.cpp	/^GC_REQUEST_INFO::AllocateRequest(VOID)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:GC_REQUEST *
+AllocateRequest	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AllocateRequest(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+AllocateRequest	dftl_request_meta.cpp	/^META_REQUEST_INFO::AllocateRequest(VOID)$/;"	f	class:META_REQUEST_INFO	typeref:typename:META_REQUEST *
+AllocateRequest_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::AllocateRequest_per_way() {$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST_PER_WAY *
+BLOCKS_PER_MAP_BITS	dftl_global.h	/^#define BLOCKS_PER_MAP_BITS	/;"	d
+BLOCKS_PER_MAP_MASKS	dftl_global.h	/^#define BLOCKS_PER_MAP_MASKS	/;"	d
+BLOCKS_PER_MAP_PAGES	dftl_global.h	/^#define BLOCKS_PER_MAP_PAGES	/;"	d
+BLOCKTYPE_FREE	dftl_block.h	/^	BLOCKTYPE_FREE,$/;"	e	enum:__anonbc2401ef0103
+BLOCKTYPE_GC	dftl_block.h	/^	BLOCKTYPE_GC,$/;"	e	enum:__anonbc2401ef0103
+BLOCKTYPE_META	dftl_block.h	/^	BLOCKTYPE_META,$/;"	e	enum:__anonbc2401ef0103
+BLOCKTYPE_USER	dftl_block.h	/^	BLOCKTYPE_USER,$/;"	e	enum:__anonbc2401ef0103
+BLOCK_MGR	dftl_block.h	/^class BLOCK_MGR$/;"	c
+BLOCK_MGR_TYPE	dftl_block.h	/^} BLOCK_MGR_TYPE;$/;"	t	typeref:enum:__anonbc2401ef0203
+BLOCK_TYPE	dftl_block.h	/^} BLOCK_TYPE;$/;"	t	typeref:enum:__anonbc2401ef0103
+BUFFERING_LPN	dftl_activeblock.h	/^class BUFFERING_LPN$/;"	c
+BUFFER_ENTRY	dftl_bufferpool.h	/^class BUFFER_ENTRY$/;"	c
+BUFFER_MGR	dftl_bufferpool.h	/^class BUFFER_MGR$/;"	c
+Buf	dftl_global.h	/^	BUFFER_ENTRY* Buf[MAX_READ_CACHE_ENTRY];$/;"	m	class:Read_Cache	typeref:typename:BUFFER_ENTRY * []
+BufOffset	dftl_request_hil.h	/^	INT8			BufOffset[LPN_PER_PHYSICAL_PAGE];$/;"	m	class:HIL_REQUEST_PER_WAY	typeref:typename:INT8[]
+CHANNEL_FROM_VPPN	dftl_vnand.h	/^#define CHANNEL_FROM_VPPN(/;"	d
+CHANNEL_VPPN	dftl_vnand.h	/^#define CHANNEL_VPPN(/;"	d
+COMMON_REQUEST	dftl_types.h	/^	COMMON_REQUEST(VOID) : m_eIOType(IOTYPE_COUNT) {}$/;"	f	class:COMMON_REQUEST
+COMMON_REQUEST	dftl_types.h	/^class COMMON_REQUEST$/;"	c
+CallBack	dftl_global.cpp	/^DFTL_GLOBAL::CallBack(FTL_REQUEST_ID stReqID)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VIRTUAL VOID
+CheckAllProgramUnitIsFree	dftl_activeblock.cpp	/^ACTIVE_BLOCK::CheckAllProgramUnitIsFree(VOID)$/;"	f	class:ACTIVE_BLOCK	typeref:typename:BOOL
+CheckAndStartGC	dftl_garbagecollector.cpp	/^GC_MGR::CheckAndStartGC(VOID)$/;"	f	class:GC_MGR	typeref:typename:VOID
+CheckStatus	dftl_global.cpp	/^DFTL_GLOBAL::CheckStatus(DFTL_STATUS eStatus)$/;"	f	class:DFTL_GLOBAL	typeref:typename:BOOL
+CheckTxDMADone	dftl_hdma.cpp	/^HDMA::CheckTxDMADone(UINT32 nDMaReqTail, UINT32 nOverflowCount)$/;"	f	class:HDMA	typeref:typename:BOOL
+CheckVPC	dftl_block.cpp	/^BLOCK_MGR::CheckVPC(UINT32 channel, UINT32 way, UINT32 nVBN)$/;"	f	class:BLOCK_MGR	typeref:typename:VOID
+ClearActive	dftl_block.h	/^	VOID ClearActive(VOID)	{ m_bActive = FALSE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+ClearFree	dftl_block.h	/^	VOID ClearFree(VOID)	{ m_bFree = FALSE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+ClearGC	dftl_block.h	/^	VOID ClearGC(VOID)		{ m_bGC = FALSE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+ClearMeta	dftl_block.h	/^	VOID ClearMeta(VOID)	{ m_bMeta = FALSE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+ClearMetaGCing	dftl_global.h	/^	VOID ClearMetaGCing() { m_MetaGCing = FALSE; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:VOID
+ClearUser	dftl_block.h	/^	VOID ClearUser(VOID)	{ m_bUser = FALSE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+DFTL_GLOBAL	dftl_global.h	/^class DFTL_GLOBAL : public FTL_INTERFACE$/;"	c
+DFTL_GetProfile	dftl_profile.cpp	/^UINT32 DFTL_GetProfile(DFTL_PROFILE offset) {$/;"	f	typeref:typename:UINT32
+DFTL_IncreaseProfile	dftl_profile.cpp	/^VOID DFTL_IncreaseProfile(DFTL_PROFILE offset) {$/;"	f	typeref:typename:VOID
+DFTL_IncreaseProfile	dftl_profile.cpp	/^VOID DFTL_IncreaseProfile(DFTL_PROFILE offset, UINT32 count) {$/;"	f	typeref:typename:VOID
+DFTL_PROFILE	dftl_profile.h	/^} DFTL_PROFILE;$/;"	t	typeref:enum:__anon4482a6f50103
+DFTL_PrintProfile	dftl_profile.cpp	/^VOID DFTL_PrintProfile() {$/;"	f	typeref:typename:VOID
+DFTL_Profile_Initialize	dftl_profile.cpp	/^VOID DFTL_Profile_Initialize() {$/;"	f	typeref:typename:VOID
+DFTL_REQUEST_PER_LOOP	dftl_config.h	/^#define DFTL_REQUEST_PER_LOOP	/;"	d
+DFTL_STATUS	dftl_global.h	/^} DFTL_STATUS;$/;"	t	typeref:enum:__anonddd6d4950103
+DFTL_STATUS_FORMATTING	dftl_global.h	/^	DFTL_STATUS_FORMATTING	= 0x02,			\/\/ now formatting$/;"	e	enum:__anonddd6d4950103
+DFTL_STATUS_META_IO	dftl_global.h	/^	DFTL_STATUS_META_IO		= 0x01,			\/\/ meta loading \/ storing$/;"	e	enum:__anonddd6d4950103
+DFTL_STATUS_NONE	dftl_global.h	/^	DFTL_STATUS_NONE		= 0x00,$/;"	e	enum:__anonddd6d4950103
+DFTL_profile	dftl_profile.h	/^static UINT32 DFTL_profile[Prof_Total_Num];$/;"	v	typeref:typename:UINT32[]
+FTL_CallBack	dftl_external_interface.cpp	/^VOID FTL_CallBack(FTL_REQUEST_ID stReqID)$/;"	f	typeref:typename:VOID
+FTL_Format	dftl_external_interface.cpp	/^BOOL FTL_Format(VOID)$/;"	f	typeref:typename:BOOL
+FTL_INTERFACE	dftl_types.h	/^class FTL_INTERFACE$/;"	c
+FTL_IOCtl	dftl_external_interface.cpp	/^VOID FTL_IOCtl(IOCTL_TYPE eType)$/;"	f	typeref:typename:VOID
+FTL_Initialize	dftl_external_interface.cpp	/^VOID FTL_Initialize(VOID)$/;"	f	typeref:typename:VOID
+FTL_ReadPage	dftl_external_interface.cpp	/^VOID FTL_ReadPage(UINT32 nCmdSlotTag, UINT32 nLPN, UINT32 nCount)$/;"	f	typeref:typename:VOID
+FTL_Run	dftl_external_interface.cpp	/^VOID FTL_Run(VOID)$/;"	f	typeref:typename:VOID
+FTL_WritePage	dftl_external_interface.cpp	/^VOID FTL_WritePage(UINT32 nCmdSlotTag, UINT32 nLPN, UINT32 nCount)$/;"	f	typeref:typename:VOID
+Format	dftl_block.cpp	/^BLOCK_MGR::Format(VOID)$/;"	f	class:BLOCK_MGR	typeref:typename:VOID
+Format	dftl_block.cpp	/^VBINFO_MGR::Format(VOID)$/;"	f	class:VBINFO_MGR	typeref:typename:VOID
+Format	dftl_global.cpp	/^DFTL_GLOBAL::Format(VOID)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VIRTUAL BOOL
+Format	dftl_meta.cpp	/^META_CACHE::Format(VOID)$/;"	f	class:META_CACHE	typeref:typename:BOOL
+Format	dftl_meta.cpp	/^META_L2V_MGR::Format(VOID)$/;"	f	class:META_L2V_MGR	typeref:typename:BOOL
+Format	dftl_meta.cpp	/^META_MGR::Format(VOID)$/;"	f	class:META_MGR	typeref:typename:BOOL
+GCReadDone	dftl_request_gc.cpp	/^GC_REQUEST::GCReadDone(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:VOID
+GC_DEBUG	dftl_garbagecollector.h	/^	GC_DEBUG() :m_apstVPNStatus(NULL) {};$/;"	f	class:GC_DEBUG
+GC_DEBUG	dftl_garbagecollector.h	/^class GC_DEBUG$/;"	c
+GC_DEBUG_FLAG	dftl_garbagecollector.h	/^	} GC_DEBUG_FLAG;$/;"	t	class:GC_DEBUG	typeref:enum:GC_DEBUG::__anon173b5f540103
+GC_DEBUG_FLAG_MASK	dftl_garbagecollector.h	/^		GC_DEBUG_FLAG_MASK			= 0x0F,$/;"	e	enum:GC_DEBUG::__anon173b5f540103
+GC_DEBUG_FLAG_READ	dftl_garbagecollector.h	/^		GC_DEBUG_FLAG_READ			= 0x01,$/;"	e	enum:GC_DEBUG::__anon173b5f540103
+GC_DEBUG_FLAG_READ_DONE	dftl_garbagecollector.h	/^		GC_DEBUG_FLAG_READ_DONE		= 0x02,$/;"	e	enum:GC_DEBUG::__anon173b5f540103
+GC_DEBUG_FLAG_WRITE_DONE	dftl_garbagecollector.h	/^		GC_DEBUG_FLAG_WRITE_DONE	= 0x08,$/;"	e	enum:GC_DEBUG::__anon173b5f540103
+GC_DEBUG_FLAG_WRITE_ISSUE	dftl_garbagecollector.h	/^		GC_DEBUG_FLAG_WRITE_ISSUE	= 0x04,$/;"	e	enum:GC_DEBUG::__anon173b5f540103
+GC_MGR	dftl_garbagecollector.h	/^	GC_MGR() : m_nVictimVBN(INVALID_VBN) {};$/;"	f	class:GC_MGR
+GC_MGR	dftl_garbagecollector.h	/^class GC_MGR : public GC_POLICY_GREEDY$/;"	c
+GC_POLICY_GREEDY	dftl_garbagecollector.h	/^class GC_POLICY_GREEDY$/;"	c
+GC_REQUEST	dftl_request_gc.h	/^class GC_REQUEST : public COMMON_REQUEST$/;"	c
+GC_REQUEST_COUNT	dftl_request_gc.h	/^#define GC_REQUEST_COUNT	/;"	d
+GC_REQUEST_COUNT	dftl_request_hil.h	/^#define GC_REQUEST_COUNT	/;"	d
+GC_REQUEST_FREE	dftl_request_gc.h	/^	GC_REQUEST_FREE,$/;"	e	enum:__anon70a60d960103
+GC_REQUEST_INFO	dftl_request_gc.h	/^class GC_REQUEST_INFO$/;"	c
+GC_REQUEST_READ_DONE	dftl_request_gc.h	/^	GC_REQUEST_READ_DONE,$/;"	e	enum:__anon70a60d960103
+GC_REQUEST_READ_ISSUE	dftl_request_gc.h	/^	GC_REQUEST_READ_ISSUE,$/;"	e	enum:__anon70a60d960103
+GC_REQUEST_READ_WAIT	dftl_request_gc.h	/^	GC_REQUEST_READ_WAIT,$/;"	e	enum:__anon70a60d960103
+GC_REQUEST_STATUS	dftl_request_gc.h	/^} GC_REQUEST_STATUS;$/;"	t	typeref:enum:__anon70a60d960103
+GC_REQUEST_WRITE_ADD_TO_ACTIVE_BLOCK	dftl_request_gc.h	/^	GC_REQUEST_WRITE_ADD_TO_ACTIVE_BLOCK,							\/\/ GC request is inserted to active block buffer$/;"	e	enum:__anon70a60d960103
+GC_REQUEST_WRITE_DONE	dftl_request_gc.h	/^	GC_REQUEST_WRITE_DONE = GC_REQUEST_WRITE_ADD_TO_ACTIVE_BLOCK,	\/\/ no further work to do$/;"	e	enum:__anon70a60d960103
+GC_REQUEST_WRITE_WAIT	dftl_request_gc.h	/^	GC_REQUEST_WRITE_WAIT = GC_REQUEST_READ_DONE,$/;"	e	enum:__anon70a60d960103
+GET_BUCKET_INDEX	dftl_activeblock.h	/^	static inline UINT32 GET_BUCKET_INDEX(UINT32 nLPN)$/;"	f	class:BUFFERING_LPN	typeref:typename:UINT32
+GET_VPPN_FROM_VPN_VBN	dftl_vnand.h	/^#define GET_VPPN_FROM_VPN_VBN(/;"	d
+GetActiveBlock	dftl_activeblock.cpp	/^ACTIVE_BLOCK_MGR::GetActiveBlock(INT32 nIndex, IOTYPE eIOType)$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK *
+GetActiveBlock	dftl_activeblock.cpp	/^ACTIVE_BLOCK_MGR::GetActiveBlock(IOTYPE eIOType)$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK *
+GetActiveBlockBufferingLPN	dftl_global.h	/^	static BUFFERING_LPN*	GetActiveBlockBufferingLPN(UINT32 channel, UINT32 way) { return m_pstInst/;"	f	class:DFTL_GLOBAL	typeref:typename:BUFFERING_LPN *
+GetActiveBlockIndex	dftl_activeblock.cpp	/^ACTIVE_BLOCK_MGR::GetActiveBlockIndex(IOTYPE eIOType)$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:UINT32
+GetActiveBlockMgr	dftl_global.h	/^	static ACTIVE_BLOCK_MGR* GetActiveBlockMgr(UINT32 channel, UINT32 way) { return &m_pstInstance-/;"	f	class:DFTL_GLOBAL	typeref:typename:ACTIVE_BLOCK_MGR *
+GetBuffer	dftl_request_gc.h	/^	BUFFER_ENTRY* GetBuffer(VOID) { return m_pstBufEntry; }$/;"	f	class:GC_REQUEST	typeref:typename:BUFFER_ENTRY *
+GetBuffer	dftl_request_meta.h	/^	BUFFER_ENTRY*		GetBuffer(VOID) { return m_pstBufEntry; }$/;"	f	class:META_REQUEST	typeref:typename:BUFFER_ENTRY *
+GetBufferEntry	dftl_activeblock.h	/^	BUFFER_ENTRY*	GetBufferEntry(VOID) {return m_pstBufferEntry;}$/;"	f	class:PROGRAM_UNIT	typeref:typename:BUFFER_ENTRY *
+GetBufferMgr	dftl_global.h	/^	static BUFFER_MGR*		GetBufferMgr()	{return &m_pstInstance->m_stBufferMgr;}$/;"	f	class:DFTL_GLOBAL	typeref:typename:BUFFER_MGR *
+GetBufferingMgr	dftl_activeblock.h	/^	BUFFERING_LPN* GetBufferingMgr(VOID) { return &m_stBufferingMgr; }$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:BUFFERING_LPN *
+GetChannel	dftl_request_gc.h	/^	INT32 GetChannel() { return m_nChannel; }$/;"	f	class:GC_REQUEST	typeref:typename:INT32
+GetChannel	dftl_request_hil.h	/^	INT32 GetChannel() { return m_channel; }$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:INT32
+GetCount	dftl_global.h	/^	UINT32 GetCount(PROFILE_TYPE eType)$/;"	f	class:PROFILE	typeref:typename:UINT32
+GetCurLPN	dftl_request_hil.h	/^	UINT32 GetCurLPN(VOID) { return (m_nLPN + m_nIssued_Count); }$/;"	f	class:HIL_REQUEST	typeref:typename:UINT32
+GetDoneCount	dftl_request_hil.h	/^	UINT32 GetDoneCount(VOID) { return m_nDoneLPNCount; }$/;"	f	class:HIL_REQUEST	typeref:typename:UINT32
+GetDoneRequest	dftl_request_gc.cpp	/^GC_REQUEST_INFO::GetDoneRequest(VOID)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:GC_REQUEST *
+GetDoneRequest	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::GetDoneRequest(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetDoneRequest	dftl_request_meta.cpp	/^META_REQUEST_INFO::GetDoneRequest(VOID)$/;"	f	class:META_REQUEST_INFO	typeref:typename:META_REQUEST *
+GetDoneRequest_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::GetDoneRequest_per_way(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetEntry	dftl_bufferpool.cpp	/^BUFFER_MGR::GetEntry(INT32 nIndex)$/;"	f	class:BUFFER_MGR	typeref:typename:BUFFER_ENTRY *
+GetFreeBlockCount	dftl_block.h	/^	UINT32	GetFreeBlockCount(UINT32 channel, UINT32 way) { return m_nFreeBlocks[channel][way]; }$/;"	f	class:BLOCK_MGR	typeref:typename:UINT32
+GetFreeCount	dftl_bufferpool.h	/^	INT32			GetFreeCount(VOID)$/;"	f	class:BUFFER_MGR	typeref:typename:INT32
+GetGCMgr	dftl_global.h	/^	static GC_MGR*			GetGCMgr(UINT32 channel, UINT32 way) { return &m_pstInstance->m_stGCMgr[channe/;"	f	class:DFTL_GLOBAL	typeref:typename:GC_MGR *
+GetGCRequestInfo	dftl_request.h	/^	GC_REQUEST_INFO* GetGCRequestInfo(VOID)					{	return &m_stGCRequestInfo;	}$/;"	f	class:REQUEST_MGR	typeref:typename:GC_REQUEST_INFO *
+GetGCTh	dftl_global.h	/^	UINT32 GetGCTh(VOID) { return m_nGCTh; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:UINT32
+GetHDMAMgr	dftl_global.h	/^	static HDMA*			GetHDMAMgr(VOID)	{return &m_pstInstance->m_stHostDMA;}$/;"	f	class:DFTL_GLOBAL	typeref:typename:HDMA *
+GetHDMAOffset	dftl_request_hil.h	/^	UINT16 GetHDMAOffset(VOID) { return m_nDMA_offset; }$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:UINT16
+GetHDMARequest	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::GetHDMARequest(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetHILRequestInfo	dftl_request.h	/^	HIL_REQUEST_INFO* GetHILRequestInfo(VOID)			{	return &m_stHILRequestInfo;	}$/;"	f	class:REQUEST_MGR	typeref:typename:HIL_REQUEST_INFO *
+GetHostCmdSlotTag	dftl_request_hil.h	/^	UINT32 GetHostCmdSlotTag(VOID) {return m_nHostCmdSlotTag;}$/;"	f	class:HIL_REQUEST	typeref:typename:UINT32
+GetIOType	dftl_request_gc.h	/^	IOTYPE				GetIOType(VOID) { return m_eIOType; }$/;"	f	class:GC_REQUEST	typeref:typename:IOTYPE
+GetInstance	dftl_global.h	/^	static DFTL_GLOBAL*		GetInstance(VOID) { return m_pstInstance; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:DFTL_GLOBAL *
+GetInvalidLPNCount	dftl_block.h	/^	UINT32 GetInvalidLPNCount(VOID) { return m_nInvalidLPN; }$/;"	f	class:VBINFO	typeref:typename:UINT32
+GetIssuedRequest	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::GetIssuedRequest(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetIssuedRequest_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::GetIssuedRequest_per_way(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetIssued_count	dftl_request_hil.h	/^	INT32 GetIssued_count() { return m_nIssued_Count; }$/;"	f	class:HIL_REQUEST	typeref:typename:INT32
+GetL2V	dftl_meta.cpp	/^META_CACHE::GetL2V(UINT32 nLPN)$/;"	f	class:META_CACHE	typeref:typename:UINT32
+GetL2V	dftl_meta.cpp	/^META_L2V_MGR::GetL2V(UINT32 nLPN)$/;"	f	class:META_L2V_MGR	typeref:typename:UINT32
+GetL2V	dftl_meta.cpp	/^META_MGR::GetL2V(UINT32 nLPN)$/;"	f	class:META_MGR	typeref:typename:UINT32
+GetLPN	dftl_activeblock.h	/^	UINT32	GetLPN(INT32 nIndex) {return m_anLPN[nIndex];}$/;"	f	class:PROGRAM_UNIT	typeref:typename:UINT32
+GetLPN	dftl_request_gc.h	/^	UINT32				GetLPN(VOID) { return m_nLPN; }$/;"	f	class:GC_REQUEST	typeref:typename:UINT32
+GetLPN	dftl_request_meta.h	/^	UINT32				GetLPN(VOID) { return m_nMetaLPN; }$/;"	f	class:META_REQUEST	typeref:typename:UINT32
+GetLPNCount	dftl_global.h	/^	UINT32 GetLPNCount(VOID) {return m_nLPNCount;}$/;"	f	class:DFTL_GLOBAL	typeref:typename:UINT32
+GetLPNCount	dftl_request_hil.h	/^	INT32 GetLPNCount(VOID) { return m_nLPNCount; }$/;"	f	class:HIL_REQUEST	typeref:typename:INT32
+GetMetaActiveBlockBufferingLPN	dftl_global.h	/^	static BUFFERING_LPN* GetMetaActiveBlockBufferingLPN(UINT32 channel, UINT32 way) { return m_pst/;"	f	class:DFTL_GLOBAL	typeref:typename:BUFFERING_LPN *
+GetMetaBlockMgr	dftl_global.h	/^	static BLOCK_MGR*		GetMetaBlockMgr(VOID) { return &m_pstInstance->m_stMetaBlockMgr; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:BLOCK_MGR *
+GetMetaBufferingMgr	dftl_activeblock.h	/^	BUFFERING_LPN* GetMetaBufferingMgr(VOID) { return &m_stMetaBufferingMgr; }$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:BUFFERING_LPN *
+GetMetaEntry	dftl_meta.cpp	/^META_CACHE::GetMetaEntry(UINT32 nLPN)$/;"	f	class:META_CACHE	typeref:typename:META_CACHE_ENTRY *
+GetMetaGCMgr	dftl_global.h	/^	static GC_MGR*			GetMetaGCMgr(UINT32 channel, UINT32 way) { return &m_pstInstance->m_stMetaGCMg/;"	f	class:DFTL_GLOBAL	typeref:typename:GC_MGR *
+GetMetaL2VMgr	dftl_global.h	/^	static META_L2V_MGR*	GetMetaL2VMgr(VOID) { return &m_pstInstance->m_stMetaL2VMgr; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:META_L2V_MGR *
+GetMetaLPNCount	dftl_meta.cpp	/^META_L2V_MGR::GetMetaLPNCount(VOID)$/;"	f	class:META_L2V_MGR	typeref:typename:UINT32
+GetMetaMgr	dftl_global.h	/^	static META_MGR*		GetMetaMgr(VOID) { return &m_pstInstance->m_stMetaMgr; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:META_MGR *
+GetMetaRequestInfo	dftl_request.h	/^	META_REQUEST_INFO* GetMetaRequestInfo(VOID)				{	return &m_stMetaRequestInfo;	}$/;"	f	class:REQUEST_MGR	typeref:typename:META_REQUEST_INFO *
+GetPPagesPerVBlock	dftl_vnand.cpp	/^VNAND::GetPPagesPerVBlock(VOID)$/;"	f	class:VNAND	typeref:typename:UINT32
+GetProfileCount	dftl_global.h	/^	UINT32 GetProfileCount(PROFILE_TYPE eType)$/;"	f	class:DFTL_GLOBAL	typeref:typename:UINT32
+GetReadCacheMgr	dftl_global.h	/^	static Read_Cache*		GetReadCacheMgr() { return &m_pstInstance->m_stReadCache; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:Read_Cache *
+GetRequest	dftl_request_gc.h	/^	GC_REQUEST* GetRequest(INT32 nIndex) { return &m_astRequestPool[nIndex]; }$/;"	f	class:GC_REQUEST_INFO	typeref:typename:GC_REQUEST *
+GetRequest	dftl_request_hil.h	/^	HIL_REQUEST* GetRequest(INT32 nIndex) { return &m_astRequestPool[nIndex]; }$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetRequest	dftl_request_meta.h	/^	META_REQUEST* GetRequest(INT32 nIndex) { return &m_astRequestPool[nIndex]; }$/;"	f	class:META_REQUEST_INFO	typeref:typename:META_REQUEST *
+GetRequestMgr	dftl_global.h	/^	static REQUEST_MGR*		GetRequestMgr(VOID)	{return &m_pstInstance->m_stRequestMgr;}$/;"	f	class:DFTL_GLOBAL	typeref:typename:REQUEST_MGR *
+GetRequest_per_way	dftl_request_hil.h	/^	HIL_REQUEST_PER_WAY* GetRequest_per_way(INT32 nIndex) { return &m_astRequestPerWayPool[nIndex];/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST_PER_WAY *
+GetRxDMAIndex	dftl_hdma.cpp	/^HDMA::GetRxDMAIndex(VOID)$/;"	f	class:HDMA	typeref:typename:UINT8
+GetRxDMAOverFlowCount	dftl_hdma.cpp	/^HDMA::GetRxDMAOverFlowCount(VOID)$/;"	f	class:HDMA	typeref:typename:UINT32
+GetStartLPN	dftl_request_hil.h	/^	UINT32 GetStartLPN(VOID) { return m_nLPN; }$/;"	f	class:HIL_REQUEST	typeref:typename:UINT32
+GetStatus	dftl_request_gc.h	/^	GC_REQUEST_STATUS	GetStatus(VOID) { return m_nStatus; }$/;"	f	class:GC_REQUEST	typeref:typename:GC_REQUEST_STATUS
+GetStatus	dftl_request_hil.h	/^	HIL_REQUEST_STATUS GetStatus(VOID) { return m_nStatus; }$/;"	f	class:HIL_REQUEST	typeref:typename:HIL_REQUEST_STATUS
+GetStatus	dftl_request_meta.h	/^	META_REQUEST_STATUS	GetStatus(VOID) { return m_nStatus; }$/;"	f	class:META_REQUEST	typeref:typename:META_REQUEST_STATUS
+GetTxDMAIndex	dftl_hdma.cpp	/^HDMA::GetTxDMAIndex(VOID)$/;"	f	class:HDMA	typeref:typename:UINT8
+GetTxDMAOverFlowCount	dftl_hdma.cpp	/^HDMA::GetTxDMAOverFlowCount(VOID)$/;"	f	class:HDMA	typeref:typename:UINT32
+GetUserBlockMgr	dftl_global.h	/^	static BLOCK_MGR*		GetUserBlockMgr(VOID) { return &m_pstInstance->m_stUserBlockMgr; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:BLOCK_MGR *
+GetV2L	dftl_vnand.cpp	/^VNAND::GetV2L(UINT32 nVPPN)$/;"	f	class:VNAND	typeref:typename:UINT32
+GetVBInfo	dftl_block.cpp	/^VBINFO_MGR::GetVBInfo(UINT32 nVBN)$/;"	f	class:VBINFO_MGR	typeref:typename:VBINFO *
+GetVBInfoMgr	dftl_global.h	/^	static VBINFO_MGR*		GetVBInfoMgr(UINT32 channel, UINT32 way) { return &m_pstInstance->m_stVBInf/;"	f	class:DFTL_GLOBAL	typeref:typename:VBINFO_MGR *
+GetVBSize	dftl_block.cpp	/^VBINFO_MGR::GetVBSize(VOID)$/;"	f	class:VBINFO_MGR	typeref:typename:UINT32
+GetVBlockCount	dftl_vnand.cpp	/^VNAND::GetVBlockCount(void)$/;"	f	class:VNAND	typeref:typename:UINT32
+GetVNandMgr	dftl_global.h	/^	static VNAND*			GetVNandMgr(VOID) { return &m_pstInstance->m_stVNand; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:VNAND *
+GetVPPN	dftl_activeblock.h	/^	UINT32	GetVPPN(VOID) {return m_nVPPN;}$/;"	f	class:PROGRAM_UNIT	typeref:typename:UINT32
+GetVPPN	dftl_request_gc.h	/^	UINT32				GetVPPN(VOID) { return m_nVPPN; }$/;"	f	class:GC_REQUEST	typeref:typename:UINT32
+GetVPPN	dftl_request_meta.h	/^	UINT32				GetVPPN(VOID) { return m_nVPPN; }$/;"	f	class:META_REQUEST	typeref:typename:UINT32
+GetVPagePerVBlock	dftl_global.h	/^	UINT32 GetVPagePerVBlock(VOID) {return m_nVPagesPerVBlock;}$/;"	f	class:DFTL_GLOBAL	typeref:typename:UINT32
+GetVPagesPerVBlock	dftl_vnand.cpp	/^VNAND::GetVPagesPerVBlock(VOID)$/;"	f	class:VNAND	typeref:typename:UINT32
+GetValidVPNCount	dftl_vnand.cpp	/^VNAND::GetValidVPNCount(UINT32 channel, UINT32 way, UINT32 nVBN)$/;"	f	class:VNAND	typeref:typename:UINT32
+GetVictimVBN	dftl_garbagecollector.cpp	/^GC_POLICY_GREEDY::GetVictimVBN(UINT32 channel, UINT32 way)$/;"	f	class:GC_POLICY_GREEDY	typeref:typename:UINT32
+GetWaitRequest	dftl_request_gc.cpp	/^GC_REQUEST_INFO::GetWaitRequest(VOID)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:GC_REQUEST *
+GetWaitRequest	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::GetWaitRequest(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetWaitRequest	dftl_request_meta.cpp	/^META_REQUEST_INFO::GetWaitRequest(UINT32 channel, UINT32 way)$/;"	f	class:META_REQUEST_INFO	typeref:typename:META_REQUEST *
+GetWaitRequest	dftl_request_meta.cpp	/^META_REQUEST_INFO::GetWaitRequest(VOID)$/;"	f	class:META_REQUEST_INFO	typeref:typename:META_REQUEST *
+GetWaitRequest_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::GetWaitRequest_per_way(INT32 channel, INT32 way)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST *
+GetWay	dftl_request_gc.h	/^	INT32 GetWay() { return m_nWay; }$/;"	f	class:GC_REQUEST	typeref:typename:INT32
+GetWay	dftl_request_hil.h	/^	INT32 GetWay() { return m_way; }$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:INT32
+GoToNextStatus	dftl_request_gc.h	/^	VOID GoToNextStatus(VOID) { m_nStatus = (GC_REQUEST_STATUS)(m_nStatus + 1); }$/;"	f	class:GC_REQUEST	typeref:typename:VOID
+GoToNextStatus	dftl_request_hil.h	/^	VOID GoToNextStatus(VOID) { m_nStatus = (HIL_REQUEST_STATUS)(m_nStatus + 1); }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+GoToNextStatus	dftl_request_meta.h	/^	VOID GoToNextStatus(VOID) { m_nStatus = (META_REQUEST_STATUS)(m_nStatus + 1); }$/;"	f	class:META_REQUEST	typeref:typename:VOID
+HASH_BUCKET_COUNT	dftl_activeblock.h	/^	static const UINT32 HASH_BUCKET_COUNT = 4096;$/;"	m	class:BUFFERING_LPN	typeref:typename:const UINT32
+HASH_BUCKET_MASK	dftl_activeblock.h	/^	static const UINT32 HASH_BUCKET_MASK = (HASH_BUCKET_COUNT - 1);$/;"	m	class:BUFFERING_LPN	typeref:typename:const UINT32
+HDMA	dftl_hdma.h	/^class HDMA$/;"	c
+HDMAIssue	dftl_request_hil.cpp	/^BOOL HIL_REQUEST_PER_WAY::HDMAIssue(VOID)$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:BOOL
+HIL_REQUEST	dftl_request_hil.h	/^class HIL_REQUEST$/;"	c
+HIL_REQUEST_COUNT	dftl_request_hil.h	/^#define HIL_REQUEST_COUNT	/;"	d
+HIL_REQUEST_FREE	dftl_request_hil.h	/^	HIL_REQUEST_FREE,$/;"	e	enum:__anon857e23c90103
+HIL_REQUEST_INFO	dftl_request_hil.h	/^class HIL_REQUEST_INFO$/;"	c
+HIL_REQUEST_PER_WAY	dftl_request_hil.h	/^class HIL_REQUEST_PER_WAY : public HIL_REQUEST {$/;"	c
+HIL_REQUEST_READ_DONE	dftl_request_hil.h	/^	HIL_REQUEST_READ_DONE,$/;"	e	enum:__anon857e23c90103
+HIL_REQUEST_READ_NAND_ISSUED	dftl_request_hil.h	/^	HIL_REQUEST_READ_NAND_ISSUED,$/;"	e	enum:__anon857e23c90103
+HIL_REQUEST_READ_WAIT	dftl_request_hil.h	/^	HIL_REQUEST_READ_WAIT,			\/\/ At the wait list$/;"	e	enum:__anon857e23c90103
+HIL_REQUEST_STATUS	dftl_request_hil.h	/^} HIL_REQUEST_STATUS;$/;"	t	typeref:enum:__anon857e23c90103
+HIL_REQUEST_WRITE	dftl_request_hil.h	/^	HIL_REQUEST_WRITE,$/;"	e	enum:__anon857e23c90103
+HIL_REQUEST_WRITE_WAIT	dftl_request_hil.h	/^	HIL_REQUEST_WRITE_WAIT,$/;"	e	enum:__anon857e23c90103
+INVALID_EC	dftl_types.h	/^#define INVALID_EC	/;"	d
+INVALID_LPN	dftl_types.h	/^#define INVALID_LPN	/;"	d
+INVALID_PPN	dftl_types.h	/^#define INVALID_PPN	/;"	d
+INVALID_VBN	dftl_types.h	/^#define INVALID_VBN	/;"	d
+INVALID_VPPN	dftl_types.h	/^#define INVALID_VPPN	/;"	d
+IOCtl	dftl_global.cpp	/^DFTL_GLOBAL::IOCtl(IOCTL_TYPE eType)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VIRTUAL VOID
+IOTYPE	dftl_types.h	/^} IOTYPE;$/;"	t	typeref:enum:__anon4422aaf90103
+IOTYPE_COUNT	dftl_types.h	/^	IOTYPE_COUNT,$/;"	e	enum:__anon4422aaf90103
+IOTYPE_GC	dftl_types.h	/^	IOTYPE_GC,			\/\/ GC REQUEST$/;"	e	enum:__anon4422aaf90103
+IOTYPE_HOST	dftl_types.h	/^	IOTYPE_HOST = 0,	\/\/ HOST REQUEST$/;"	e	enum:__anon4422aaf90103
+IOTYPE_META	dftl_types.h	/^	IOTYPE_META,		\/\/ META REQUEST$/;"	e	enum:__anon4422aaf90103
+IOTYPE_TEST	dftl_types.h	/^	IOTYPE_TEST,$/;"	e	enum:__anon4422aaf90103
+IncIssued_count	dftl_request_hil.h	/^	VOID IncIssued_count(VOID) { m_nIssued_Count++; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+IncreaseCount	dftl_global.h	/^	VOID IncreaseCount(PROFILE_TYPE eType)$/;"	f	class:PROFILE	typeref:typename:VOID
+IncreaseCount	dftl_global.h	/^	VOID IncreaseCount(PROFILE_TYPE eType, UINT32 nCount)$/;"	f	class:PROFILE	typeref:typename:VOID
+IncreaseDoneCount	dftl_request_hil.h	/^	VOID IncreaseDoneCount(VOID) { m_nDoneLPNCount++; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+IncreaseInvalidate	dftl_block.cpp	/^VBINFO::IncreaseInvalidate(VOID)$/;"	f	class:VBINFO	typeref:typename:VOID
+IncreaseIssuedCount	dftl_garbagecollector.cpp	/^GC_MGR::IncreaseIssuedCount(VOID)$/;"	f	class:GC_MGR	typeref:typename:VOID
+IncreaseProfileCount	dftl_global.h	/^	VOID IncreaseProfileCount(PROFILE_TYPE eType)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VOID
+IncreaseProfileCount	dftl_global.h	/^	VOID IncreaseProfileCount(PROFILE_TYPE eType, UINT32 nCount)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VOID
+IncreaseVPPN	dftl_activeblock.cpp	/^ACTIVE_BLOCK::IncreaseVPPN(VOID)$/;"	f	class:ACTIVE_BLOCK	typeref:typename:VOID
+IncreaseWriteCount	dftl_garbagecollector.cpp	/^GC_MGR::IncreaseWriteCount(VOID)$/;"	f	class:GC_MGR	typeref:typename:VOID
+Initialize	dftl_activeblock.cpp	/^ACTIVE_BLOCK_MGR::Initialize(UINT32 channel, UINT32 way)$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:VOID
+Initialize	dftl_activeblock.cpp	/^BUFFERING_LPN::Initialize(IOTYPE eIOType)$/;"	f	class:BUFFERING_LPN	typeref:typename:VOID
+Initialize	dftl_block.cpp	/^BLOCK_MGR::Initialize(BLOCK_MGR_TYPE eType)$/;"	f	class:BLOCK_MGR	typeref:typename:VOID
+Initialize	dftl_block.cpp	/^VBINFO_MGR::Initialize(VOID)$/;"	f	class:VBINFO_MGR	typeref:typename:VOID
+Initialize	dftl_bufferpool.cpp	/^BUFFER_MGR::Initialize(VOID)$/;"	f	class:BUFFER_MGR	typeref:typename:VOID
+Initialize	dftl_garbagecollector.cpp	/^GC_DEBUG::Initialize(VOID)$/;"	f	class:GC_DEBUG	typeref:typename:VOID
+Initialize	dftl_garbagecollector.cpp	/^GC_MGR::Initialize(UINT32 nGCTh, IOTYPE eIOType, UINT32 channel, UINT32 way)$/;"	f	class:GC_MGR	typeref:typename:VOID
+Initialize	dftl_garbagecollector.cpp	/^GC_POLICY_GREEDY::Initialize(IOTYPE eIOType)$/;"	f	class:GC_POLICY_GREEDY	typeref:typename:VOID
+Initialize	dftl_global.cpp	/^DFTL_GLOBAL::Initialize(VOID)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VIRTUAL VOID
+Initialize	dftl_global.cpp	/^VOID Read_Cache::Initialize()$/;"	f	class:Read_Cache	typeref:typename:VOID
+Initialize	dftl_global.h	/^	VOID Initialize(VOID)$/;"	f	class:PROFILE	typeref:typename:VOID
+Initialize	dftl_meta.cpp	/^META_CACHE::Initialize(VOID)$/;"	f	class:META_CACHE	typeref:typename:VOID
+Initialize	dftl_meta.cpp	/^META_CACHE_ENTRY::Initialize(VOID)$/;"	f	class:META_CACHE_ENTRY	typeref:typename:VOID
+Initialize	dftl_meta.cpp	/^META_L2V_MGR::Initialize(VOID)$/;"	f	class:META_L2V_MGR	typeref:typename:VOID
+Initialize	dftl_meta.cpp	/^META_MGR::Initialize(VOID)$/;"	f	class:META_MGR	typeref:typename:VOID
+Initialize	dftl_request.cpp	/^REQUEST_MGR::Initialize(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+Initialize	dftl_request_gc.cpp	/^GC_REQUEST::Initialize(GC_REQUEST_STATUS nStatus, UINT32 nVPPN, IOTYPE eIOType)$/;"	f	class:GC_REQUEST	typeref:typename:VOID
+Initialize	dftl_request_gc.cpp	/^GC_REQUEST_INFO::Initialize(VOID)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+Initialize	dftl_request_hil.cpp	/^HIL_REQUEST::Initialize(HIL_REQUEST_STATUS nStatus, NVME_CMD_OPCODE nCmd, $/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+Initialize	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::Initialize(VOID)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+Initialize	dftl_request_meta.cpp	/^META_REQUEST::Initialize(META_REQUEST_STATUS nStatus, UINT32 nMetaLPN, VOID* pstMetaEntry, IOTYP/;"	f	class:META_REQUEST	typeref:typename:VOID
+Initialize	dftl_request_meta.cpp	/^META_REQUEST_INFO::Initialize(VOID)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+Initialize	dftl_vnand.cpp	/^VNAND::Initialize(VOID)$/;"	f	class:VNAND	typeref:typename:VOID
+Initialize_per_way	dftl_request_hil.cpp	/^VOID HIL_REQUEST_PER_WAY::Initialize_per_way(HIL_REQUEST_STATUS nStatus, NVME_CMD_OPCODE nCmd, U/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:VOID
+Invalidate	dftl_block.cpp	/^BLOCK_MGR::Invalidate(UINT32 nVPPN)$/;"	f	class:BLOCK_MGR	typeref:typename:VOID
+Invalidate	dftl_vnand.cpp	/^VNAND::Invalidate(UINT32 nVPPN)$/;"	f	class:VNAND	typeref:typename:VOID
+IsActive	dftl_block.h	/^	BOOL IsActive(VOID)		{ return m_bActive;	}$/;"	f	class:VBINFO	typeref:typename:BOOL
+IsBadBlock	dftl_vnand.h	/^	BOOL	IsBadBlock(UINT32 channel, UINT32 way, UINT32 nVBN) { return FIL_IsBad(channel, way, nVBN)/;"	f	class:VNAND	typeref:typename:BOOL
+IsEmpty	dftl_bufferpool.h	/^	BOOL			IsEmpty(VOID) { return GetFreeCount() == 0 ? TRUE : FALSE; }$/;"	f	class:BUFFER_MGR	typeref:typename:BOOL
+IsFree	dftl_block.h	/^	BOOL IsFree(VOID)		{ return m_bFree;	}$/;"	f	class:VBINFO	typeref:typename:BOOL
+IsFull	dftl_activeblock.h	/^	BOOL IsFull(VOID)$/;"	f	class:PROGRAM_UNIT	typeref:typename:BOOL
+IsFullInvalid	dftl_block.cpp	/^VBINFO::IsFullInvalid(VOID)$/;"	f	class:VBINFO	typeref:typename:BOOL
+IsGCRunning	dftl_garbagecollector.cpp	/^GC_MGR::IsGCRunning(VOID)$/;"	f	class:GC_MGR	typeref:typename:BOOL
+IsMeta	dftl_block.h	/^	BOOL IsMeta(VOID)		{ return m_bMeta;	}$/;"	f	class:VBINFO	typeref:typename:BOOL
+IsMetaAvailable	dftl_meta.cpp	/^META_CACHE::IsMetaAvailable(UINT32 nLPN)$/;"	f	class:META_CACHE	typeref:typename:BOOL
+IsMetaAvailable	dftl_meta.cpp	/^META_MGR::IsMetaAvailable(UINT32 nLPN)$/;"	f	class:META_MGR	typeref:typename:BOOL
+IsMetaWritable	dftl_meta.cpp	/^META_CACHE::IsMetaWritable(UINT32 nLPN)$/;"	f	class:META_CACHE	typeref:typename:BOOL
+IsMetaWritable	dftl_meta.cpp	/^META_MGR::IsMetaWritable(UINT32 nLPN)$/;"	f	class:META_MGR	typeref:typename:BOOL
+IsValid	dftl_vnand.cpp	/^VNAND::IsValid(UINT32 channel, UINT32 way, UINT32 nVBN, UINT32 nVPageNo)$/;"	f	class:VNAND	typeref:typename:BOOL
+IsValidLPN	dftl_global.h	/^	BOOL	IsValidLPN(UINT32 nLPN)$/;"	f	class:DFTL_GLOBAL	typeref:typename:BOOL
+IssueRxDMA	dftl_hdma.cpp	/^HDMA::IssueRxDMA(UINT32 nCmdSlotTag, UINT32 nCmd4KOffset, UINT32 nBufAddr)$/;"	f	class:HDMA	typeref:typename:VOID
+IssueTxDMA	dftl_hdma.cpp	/^HDMA::IssueTxDMA(UINT32 nCmdSlotTag, UINT32 nCmd4KOffset, UINT32 nBufAddr)$/;"	f	class:HDMA	typeref:typename:VOID
+L2V_PER_META_PAGE	dftl_meta.h	/^#define L2V_PER_META_PAGE	/;"	d
+LPN_OFFSET_FROM_VPPN	dftl_vnand.h	/^#define LPN_OFFSET_FROM_VPPN(/;"	d
+LoadDone	dftl_meta.cpp	/^META_MGR::LoadDone(META_CACHE_ENTRY* pstMetaEntry, VOID* pBuf)$/;"	f	class:META_MGR	typeref:typename:VOID
+LoadMeta	dftl_meta.cpp	/^META_CACHE::LoadMeta(UINT32 nLPN)$/;"	f	class:META_CACHE	typeref:typename:VOID
+LoadMeta	dftl_meta.cpp	/^META_MGR::LoadMeta(UINT32 nLPN)$/;"	f	class:META_MGR	typeref:typename:VOID
+MAX_READ_CACHE_ENTRY	dftl_global.h	/^#define MAX_READ_CACHE_ENTRY	/;"	d
+META_BLOCK_MGR	dftl_block.h	/^	META_BLOCK_MGR,$/;"	e	enum:__anonbc2401ef0203
+META_CACHE	dftl_meta.h	/^class META_CACHE$/;"	c
+META_CACHE_ENTRY	dftl_meta.h	/^class META_CACHE_ENTRY$/;"	c
+META_CACHE_ENTRY_COUNT	dftl_meta.h	/^#define META_CACHE_ENTRY_COUNT	/;"	d
+META_CACHE_SIZE	dftl_config.h	/^#define META_CACHE_SIZE	/;"	d
+META_DEBUG_PRINTF	dftl_meta.h	/^	#define META_DEBUG_PRINTF	/;"	d
+META_DEBUG_PRINTF	dftl_meta.h	/^	#define META_DEBUG_PRINTF(/;"	d
+META_GC_THRESHOLD	dftl_config.h	/^#define META_GC_THRESHOLD	/;"	d
+META_L2V_MGR	dftl_meta.h	/^class META_L2V_MGR : public META_MGR$/;"	c
+META_MGR	dftl_meta.h	/^class META_MGR$/;"	c
+META_OP_RATIO	dftl_config.h	/^#define META_OP_RATIO	/;"	d
+META_PER_WAY	dftl_config.h	/^#define META_PER_WAY	/;"	d
+META_REQUEST	dftl_request_meta.h	/^	META_REQUEST() :m_pstBufEntry(NULL) {}$/;"	f	class:META_REQUEST
+META_REQUEST	dftl_request_meta.h	/^class META_REQUEST : public COMMON_REQUEST$/;"	c
+META_REQUEST_COUNT	dftl_request_meta.h	/^#define META_REQUEST_COUNT	/;"	d
+META_REQUEST_FREE	dftl_request_meta.h	/^	META_REQUEST_FREE,$/;"	e	enum:__anon40a93af30103
+META_REQUEST_INFO	dftl_request_meta.h	/^class META_REQUEST_INFO$/;"	c
+META_REQUEST_READ_DONE	dftl_request_meta.h	/^	META_REQUEST_READ_DONE,			\/\/ operation done$/;"	e	enum:__anon40a93af30103
+META_REQUEST_READ_ISSUE	dftl_request_meta.h	/^	META_REQUEST_READ_ISSUE,		\/\/ NAND IO Issued$/;"	e	enum:__anon40a93af30103
+META_REQUEST_READ_WAIT	dftl_request_meta.h	/^	META_REQUEST_READ_WAIT,			\/\/ wait for NAND read$/;"	e	enum:__anon40a93af30103
+META_REQUEST_STATUS	dftl_request_meta.h	/^} META_REQUEST_STATUS;$/;"	t	typeref:enum:__anon40a93af30103
+META_REQUEST_WRITE_DONE	dftl_request_meta.h	/^	META_REQUEST_WRITE_DONE = META_REQUEST_WRITE_ISSUE,		\/\/ operation done,$/;"	e	enum:__anon40a93af30103
+META_REQUEST_WRITE_ISSUE	dftl_request_meta.h	/^	META_REQUEST_WRITE_ISSUE,		\/\/ Add to Active Block$/;"	e	enum:__anon40a93af30103
+META_REQUEST_WRITE_WAIT	dftl_request_meta.h	/^	META_REQUEST_WRITE_WAIT,		\/\/ wait for NAND write$/;"	e	enum:__anon40a93af30103
+META_VBLOCK_COUNT_MIN	dftl_config.h	/^#define META_VBLOCK_COUNT_MIN	/;"	d
+META_VPAGE_SIZE	dftl_config.h	/^#define META_VPAGE_SIZE	/;"	d
+PBN_FROM_VPPN	dftl_vnand.h	/^#define PBN_FROM_VPPN(/;"	d
+PPAGE_FROM_VPPN	dftl_vnand.h	/^#define PPAGE_FROM_VPPN(/;"	d
+PROFILE	dftl_global.h	/^class PROFILE$/;"	c
+PROGRAM_UNIT	dftl_activeblock.cpp	/^PROGRAM_UNIT::PROGRAM_UNIT(VOID)$/;"	f	class:PROGRAM_UNIT
+PROGRAM_UNIT	dftl_activeblock.h	/^class PROGRAM_UNIT$/;"	c
+Print	dftl_global.h	/^	VOID Print(VOID)$/;"	f	class:PROFILE	typeref:typename:VOID
+Prof_CMTGC_count	dftl_profile.h	/^	Prof_CMTGC_count,$/;"	e	enum:__anon4482a6f50103
+Prof_CMTGC_read	dftl_profile.h	/^	Prof_CMTGC_read,$/;"	e	enum:__anon4482a6f50103
+Prof_CMTGC_write	dftl_profile.h	/^	Prof_CMTGC_write,$/;"	e	enum:__anon4482a6f50103
+Prof_CMT_read	dftl_profile.h	/^	Prof_CMT_read,$/;"	e	enum:__anon4482a6f50103
+Prof_CMT_write	dftl_profile.h	/^	Prof_CMT_write,$/;"	e	enum:__anon4482a6f50103
+Prof_GC_count	dftl_profile.h	/^	Prof_GC_count,	\/\/2MB block$/;"	e	enum:__anon4482a6f50103
+Prof_GC_read	dftl_profile.h	/^	Prof_GC_read,$/;"	e	enum:__anon4482a6f50103
+Prof_GC_write	dftl_profile.h	/^	Prof_GC_write,$/;"	e	enum:__anon4482a6f50103
+Prof_Host_read	dftl_profile.h	/^	Prof_Host_read = 0,$/;"	e	enum:__anon4482a6f50103
+Prof_Host_write	dftl_profile.h	/^	Prof_Host_write,$/;"	e	enum:__anon4482a6f50103
+Prof_NAND_erase	dftl_profile.h	/^	Prof_NAND_erase,$/;"	e	enum:__anon4482a6f50103
+Prof_NAND_read	dftl_profile.h	/^	Prof_NAND_read,		\/\/16KB$/;"	e	enum:__anon4482a6f50103
+Prof_NAND_write	dftl_profile.h	/^	Prof_NAND_write,	\/\/16KB$/;"	e	enum:__anon4482a6f50103
+Prof_Total_Num	dftl_profile.h	/^	Prof_Total_Num,$/;"	e	enum:__anon4482a6f50103
+ProgramDone	dftl_activeblock.cpp	/^ACTIVE_BLOCK::ProgramDone(INT32 nBufferingIndex)$/;"	f	class:ACTIVE_BLOCK	typeref:typename:VOID
+ProgramPage	dftl_vnand.cpp	/^VNAND::ProgramPage(FTL_REQUEST_ID stReqID, PROGRAM_UNIT *pstProgram)$/;"	f	class:VNAND	typeref:typename:VOID
+ProgramPageSimul	dftl_vnand.cpp	/^VNAND::ProgramPageSimul(UINT32 nLPN, UINT32 nVPPN)$/;"	f	class:VNAND	typeref:typename:VOID
+READ_CACHE_PER_WAY	dftl_global.h	/^#define READ_CACHE_PER_WAY	/;"	d
+READ_CAHCE_PER_WAY_BIT	dftl_global.h	/^#define READ_CAHCE_PER_WAY_BIT	/;"	d
+REQUEST_LPN_COUNT_MAX	dftl_request_hil.h	/^#define REQUEST_LPN_COUNT_MAX	/;"	d
+REQUEST_MGR	dftl_request.h	/^class REQUEST_MGR$/;"	c
+ReadBufferingLPN	dftl_activeblock.cpp	/^ACTIVE_BLOCK::ReadBufferingLPN(UINT32 nLPN, BUFFER_ENTRY* pstBufferEntry)$/;"	f	class:ACTIVE_BLOCK	typeref:typename:UINT32
+ReadBufferingLPN	dftl_activeblock.cpp	/^ACTIVE_BLOCK_MGR::ReadBufferingLPN(UINT32 nLPN, BUFFER_ENTRY* pstBufferEntry, IOTYPE eIOType)$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:UINT32
+ReadLPN	dftl_activeblock.cpp	/^BUFFERING_LPN::ReadLPN(UINT32 nLPN, BUFFER_ENTRY* pstBufferEntry)$/;"	f	class:BUFFERING_LPN	typeref:typename:UINT32
+ReadPage	dftl_global.cpp	/^DFTL_GLOBAL::ReadPage(UINT32 nCmdSlotTag, UINT32 nLPN, UINT32 nCount)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VIRTUAL VOID
+ReadPage	dftl_vnand.cpp	/^VNAND::ReadPage(FTL_REQUEST_ID stReqID, UINT32 nVPPN, void * pMainBuf, void * pSpareBuf)$/;"	f	class:VNAND	typeref:typename:INT32
+ReadPageSimul	dftl_vnand.cpp	/^VNAND::ReadPageSimul(UINT32 nVPPN, void * pMainBuf)$/;"	f	class:VNAND	typeref:typename:VOID
+Read_Cache	dftl_global.h	/^class Read_Cache$/;"	c
+Release	dftl_block.cpp	/^BLOCK_MGR::Release(UINT32 channel, UINT32 way, UINT32 nVBN)$/;"	f	class:BLOCK_MGR	typeref:typename:VOID
+Release	dftl_bufferpool.cpp	/^BUFFER_MGR::Release(BUFFER_ENTRY* pstEntry)$/;"	f	class:BUFFER_MGR	typeref:typename:VOID
+ReleaseBuf	dftl_request_meta.cpp	/^META_REQUEST::ReleaseBuf(VOID)$/;"	f	class:META_REQUEST	typeref:typename:VOID
+ReleaseRequest	dftl_request_gc.cpp	/^GC_REQUEST_INFO::ReleaseRequest(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+ReleaseRequest	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::ReleaseRequest(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+ReleaseRequest	dftl_request_meta.cpp	/^META_REQUEST_INFO::ReleaseRequest(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+ReleaseRequest_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::ReleaseRequest_per_way(HIL_REQUEST_PER_WAY* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+Remove	dftl_activeblock.cpp	/^BUFFERING_LPN::Remove(UINT32 nLPN)$/;"	f	class:BUFFERING_LPN	typeref:typename:VOID
+RemoveFromDoneQ	dftl_request_gc.cpp	/^GC_REQUEST_INFO::RemoveFromDoneQ(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+RemoveFromDoneQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::RemoveFromDoneQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+RemoveFromDoneQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::RemoveFromDoneQ(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+RemoveFromDoneQ_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::RemoveFromDoneQ_per_way(HIL_REQUEST_PER_WAY* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+RemoveFromHDMAIssuedQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::RemoveFromHDMAIssuedQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+RemoveFromIssuedQ	dftl_request_gc.cpp	/^GC_REQUEST_INFO::RemoveFromIssuedQ(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+RemoveFromIssuedQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::RemoveFromIssuedQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+RemoveFromIssuedQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::RemoveFromIssuedQ(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+RemoveFromIssuedQ_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::RemoveFromIssuedQ_per_way(HIL_REQUEST_PER_WAY* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+RemoveFromWaitQ	dftl_request_gc.cpp	/^GC_REQUEST_INFO::RemoveFromWaitQ(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:VOID
+RemoveFromWaitQ	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::RemoveFromWaitQ(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+RemoveFromWaitQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::RemoveFromWaitQ(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+RemoveFromWaitQ	dftl_request_meta.cpp	/^META_REQUEST_INFO::RemoveFromWaitQ(META_REQUEST* pstRequest, UINT32 channel, UINT32 way)$/;"	f	class:META_REQUEST_INFO	typeref:typename:VOID
+RemoveFromWaitQ_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::RemoveFromWaitQ_per_way(HIL_REQUEST_PER_WAY* pstRequest, INT32 channel, INT32 /;"	f	class:HIL_REQUEST_INFO	typeref:typename:VOID
+Run	dftl_garbagecollector.cpp	/^GC_MGR::Run(VOID)$/;"	f	class:GC_MGR	typeref:typename:VOID
+Run	dftl_global.cpp	/^DFTL_GLOBAL::Run(VOID)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VIRTUAL VOID
+Run	dftl_request.cpp	/^REQUEST_MGR::Run(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+Run	dftl_request_gc.cpp	/^GC_REQUEST::Run(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+Run	dftl_request_hil.cpp	/^HIL_REQUEST::Run(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+Run	dftl_request_meta.cpp	/^META_REQUEST::Run(VOID)$/;"	f	class:META_REQUEST	typeref:typename:BOOL
+SIZE_OF_L2V	dftl_meta.h	/^#define SIZE_OF_L2V	/;"	d
+STATIC	dftl_types.h	/^#define STATIC$/;"	d
+SUPPORT_BLOCK_DEBUG	dftl_config.h	/^	#define SUPPORT_BLOCK_DEBUG	/;"	d
+SUPPORT_GC_DEBUG	dftl_config.h	/^	#define SUPPORT_GC_DEBUG	/;"	d
+SUPPORT_META_DEBUG	dftl_meta.h	/^#define SUPPORT_META_DEBUG	/;"	d
+SUPPORT_META_DEMAND_LOADING	dftl_config.h	/^#define SUPPORT_META_DEMAND_LOADING	/;"	d
+SetActive	dftl_block.h	/^	VOID SetActive(VOID)	{ m_bActive = TRUE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+SetBad	dftl_block.h	/^	VOID SetBad(VOID)		{ m_bBad = TRUE;	}	$/;"	f	class:VBINFO	typeref:typename:VOID
+SetBufferEntry	dftl_activeblock.h	/^	VOID SetBufferEntry(BUFFER_ENTRY* pstEntry) {m_pstBufferEntry = pstEntry;}$/;"	f	class:PROGRAM_UNIT	typeref:typename:VOID
+SetChannel	dftl_request_hil.h	/^	VOID SetChannel(INT32 channel) { m_channel = channel; }$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:VOID
+SetCmd	dftl_request_hil.h	/^	VOID SetCmd(NVME_CMD_OPCODE nCmd) { m_nCmd = nCmd; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+SetFlag	dftl_garbagecollector.cpp	/^GC_DEBUG::SetFlag(UINT32 nVPPN, GC_DEBUG_FLAG eFlag)$/;"	f	class:GC_DEBUG	typeref:typename:VOID
+SetFree	dftl_block.h	/^	VOID SetFree(VOID)		{ m_bFree = TRUE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+SetFullInvalid	dftl_block.cpp	/^VBINFO::SetFullInvalid(VOID)$/;"	f	class:VBINFO	typeref:typename:VOID
+SetGC	dftl_block.h	/^	VOID SetGC(VOID)		{ m_bGC = TRUE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+SetHDMAIssueInfo	dftl_request_hil.h	/^	VOID SetHDMAIssueInfo(UINT8 nDMAReqTail, UINT32 nOverFlowCount)$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+SetHostCmdSlotTag	dftl_request_hil.h	/^	VOID SetHostCmdSlotTag(UINT32 nTag) { m_nHostCmdSlotTag = nTag; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+SetIOType	dftl_activeblock.h	/^	VOID SetIOType(IOTYPE eIOType) { m_eBlockType = eIOType; }$/;"	f	class:ACTIVE_BLOCK	typeref:typename:VOID
+SetInvalidPageCount	dftl_block.h	/^	VOID SetInvalidPageCount(UINT32 nCount) { m_nInvalidLPN = nCount; }$/;"	f	class:VBINFO	typeref:typename:VOID
+SetL2V	dftl_meta.cpp	/^META_CACHE::SetL2V(UINT32 nLPN, UINT32 nVPPN)$/;"	f	class:META_CACHE	typeref:typename:UINT32
+SetL2V	dftl_meta.cpp	/^META_L2V_MGR::SetL2V(UINT32 nLPN, UINT32 nVPPN)$/;"	f	class:META_L2V_MGR	typeref:typename:VOID
+SetL2V	dftl_meta.cpp	/^META_MGR::SetL2V(UINT32 nLPN, UINT32 nVPPN)$/;"	f	class:META_MGR	typeref:typename:VOID
+SetLPN	dftl_request_gc.h	/^	VOID				SetLPN(UINT32 nLPN) { m_nLPN = nLPN; }$/;"	f	class:GC_REQUEST	typeref:typename:VOID
+SetLPN	dftl_request_hil.h	/^	VOID SetLPN(UINT32 nLPN) { m_nLPN = nLPN; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+SetLPN	dftl_request_meta.h	/^	VOID				SetLPN(UINT32 nLPN) { m_nMetaLPN = nLPN; }$/;"	f	class:META_REQUEST	typeref:typename:VOID
+SetLPNCount	dftl_request_hil.h	/^	VOID SetLPNCount(INT32 nCount) { m_nLPNCount = nCount; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+SetMeta	dftl_block.h	/^	VOID SetMeta(VOID)		{ m_bMeta = TRUE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+SetMetaGCing	dftl_global.h	/^	VOID SetMetaGCing() { m_MetaGCing = TRUE; }$/;"	f	class:DFTL_GLOBAL	typeref:typename:VOID
+SetRequestIndex	dftl_request_gc.h	/^	VOID				SetRequestIndex(INT32 nIndex) { m_nRequestIndex = nIndex; }$/;"	f	class:GC_REQUEST	typeref:typename:VOID
+SetRequestIndex	dftl_request_hil.h	/^	VOID SetRequestIndex(INT32 nIndex) { m_nRequestIndex = nIndex; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+SetRequestIndex	dftl_request_meta.h	/^	VOID				SetRequestIndex(INT32 nIndex) { m_nRequestIndex = nIndex; }$/;"	f	class:META_REQUEST	typeref:typename:VOID
+SetStatus	dftl_global.cpp	/^DFTL_GLOBAL::SetStatus(DFTL_STATUS eStatus)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VOID
+SetStatus	dftl_request_gc.h	/^	VOID				SetStatus(GC_REQUEST_STATUS nStatus)	{ m_nStatus = nStatus; }$/;"	f	class:GC_REQUEST	typeref:typename:VOID
+SetStatus	dftl_request_hil.h	/^	VOID SetStatus(HIL_REQUEST_STATUS nStatus)	{ m_nStatus = nStatus; }$/;"	f	class:HIL_REQUEST	typeref:typename:VOID
+SetStatus	dftl_request_meta.h	/^	VOID				SetStatus(META_REQUEST_STATUS nStatus)	{ m_nStatus = nStatus; }$/;"	f	class:META_REQUEST	typeref:typename:VOID
+SetUser	dftl_block.h	/^	VOID SetUser(VOID)		{ m_bUser = TRUE;	}$/;"	f	class:VBINFO	typeref:typename:VOID
+SetWay	dftl_request_hil.h	/^	VOID SetWay(INT32 channel) { m_way = channel; }$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:VOID
+StoreDone	dftl_meta.cpp	/^META_MGR::StoreDone(META_CACHE_ENTRY* pstMetaEntry)$/;"	f	class:META_MGR	typeref:typename:VOID
+SyncAllLowLevelReqDone	dftl_external_interface.cpp	/^#define SyncAllLowLevelReqDone(/;"	d	file:
+USER_BLOCK_MGR	dftl_block.h	/^	USER_BLOCK_MGR,$/;"	e	enum:__anonbc2401ef0203
+VBINFO	dftl_block.h	/^class VBINFO$/;"	c
+VBINFO_MGR	dftl_block.h	/^class VBINFO_MGR$/;"	c
+VBN_FROM_VPPN	dftl_vnand.h	/^#define VBN_FROM_VPPN(/;"	d
+VIRTUAL	dftl_types.h	/^#define VIRTUAL$/;"	d
+VIRTUAL_BLOCK	dftl_vnand.h	/^	VIRTUAL_BLOCK() :$/;"	f	class:VIRTUAL_BLOCK
+VIRTUAL_BLOCK	dftl_vnand.h	/^class VIRTUAL_BLOCK$/;"	c
+VNAND	dftl_vnand.h	/^class VNAND$/;"	c
+VPN_FROM_VPPN	dftl_vnand.h	/^#define VPN_FROM_VPPN(/;"	d
+VPPN_FROM_VBN_VPN	dftl_vnand.h	/^#define VPPN_FROM_VBN_VPN(/;"	d
+Vpage2PlsbPageTranslation	dftl_vnand.cpp	/^#define Vpage2PlsbPageTranslation(/;"	d	file:
+WAY_FROM_VPPN	dftl_vnand.h	/^#define WAY_FROM_VPPN(/;"	d
+WaitRxDMADone	dftl_hdma.cpp	/^HDMA::WaitRxDMADone(UINT32 nDMaReqTail, UINT32 nOverflowCount)$/;"	f	class:HDMA	typeref:typename:VOID
+Write	dftl_activeblock.cpp	/^ACTIVE_BLOCK::Write(VOID* pstRequest, IOTYPE eRequestType)$/;"	f	class:ACTIVE_BLOCK	typeref:typename:BOOL
+WritePage	dftl_global.cpp	/^DFTL_GLOBAL::WritePage(UINT32 nCmdSlotTag, UINT32 nLPN, UINT32 nCount)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VIRTUAL VOID
+_Allocate	dftl_meta.cpp	/^META_CACHE::_Allocate(VOID)$/;"	f	class:META_CACHE	typeref:typename:META_CACHE_ENTRY *
+_AllocateBuf	dftl_request_gc.cpp	/^GC_REQUEST::_AllocateBuf(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+_CheckAndLoadMeta	dftl_request_gc.cpp	/^GC_REQUEST::_CheckAndLoadMeta(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+_CheckAndLoadMeta	dftl_request_hil.cpp	/^HIL_REQUEST::_CheckAndLoadMeta(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_CheckMetaWritable	dftl_request_hil.cpp	/^HIL_REQUEST::_CheckMetaWritable(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_EraseSimul	dftl_vnand.cpp	/^VNAND::_EraseSimul(INT32 channel, INT32 way, INT32 nVBN)$/;"	f	class:VNAND	typeref:typename:VOID
+_FormatMeta	dftl_block.cpp	/^BLOCK_MGR::_FormatMeta(VOID)$/;"	f	class:BLOCK_MGR	typeref:typename:VOID
+_FormatUser	dftl_block.cpp	/^BLOCK_MGR::_FormatUser(VOID)$/;"	f	class:BLOCK_MGR	typeref:typename:VOID
+_GetCurActiveBlock	dftl_activeblock.cpp	/^ACTIVE_BLOCK_MGR::_GetCurActiveBlock(IOTYPE eIOType)$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK *
+_GetGCMgr	dftl_request_gc.cpp	/^GC_REQUEST::_GetGCMgr(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:GC_MGR *
+_GetL2PSize	dftl_meta.cpp	/^META_L2V_MGR::_GetL2PSize(VOID)$/;"	f	class:META_L2V_MGR	typeref:typename:INT32
+_GetL2PSize	dftl_meta.cpp	/^META_MGR::_GetL2PSize(VOID)$/;"	f	class:META_MGR	typeref:typename:INT32
+_GetMetaLPN	dftl_meta.cpp	/^META_CACHE::_GetMetaLPN(UINT32 nLPN)$/;"	f	class:META_CACHE	typeref:typename:UINT32
+_GetNandAddrFromVPPN	dftl_vnand.cpp	/^VNAND::_GetNandAddrFromVPPN(UINT32 nVPPN)$/;"	f	class:VNAND	typeref:typename:NAND_ADDR
+_GetRequestIndex	dftl_request_gc.cpp	/^GC_REQUEST_INFO::_GetRequestIndex(GC_REQUEST* pstRequest)$/;"	f	class:GC_REQUEST_INFO	typeref:typename:INT32
+_GetRequestIndex	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::_GetRequestIndex(HIL_REQUEST* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:INT32
+_GetRequestIndex	dftl_request_meta.cpp	/^META_REQUEST_INFO::_GetRequestIndex(META_REQUEST* pstRequest)$/;"	f	class:META_REQUEST_INFO	typeref:typename:INT32
+_GetRequestIndex_per_way	dftl_request_hil.cpp	/^HIL_REQUEST_INFO::_GetRequestIndex_per_way(HIL_REQUEST_PER_WAY* pstRequest)$/;"	f	class:HIL_REQUEST_INFO	typeref:typename:INT32
+_GetRquestID	dftl_request_gc.cpp	/^GC_REQUEST::_GetRquestID(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:FTL_REQUEST_ID
+_GetRquestID	dftl_request_hil.cpp	/^HIL_REQUEST::_GetRquestID(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:FTL_REQUEST_ID
+_GetRquestID	dftl_request_meta.cpp	/^META_REQUEST::_GetRquestID(VOID)$/;"	f	class:META_REQUEST	typeref:typename:FTL_REQUEST_ID
+_GoToNextActiveBlock	dftl_activeblock.cpp	/^ACTIVE_BLOCK_MGR::_GoToNextActiveBlock(IOTYPE eIOType)$/;"	f	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK *
+_Initialize	dftl_global.cpp	/^DFTL_GLOBAL::_Initialize(VOID)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VOID
+_IsWritable	dftl_request_gc.cpp	/^GC_REQUEST::_IsWritable(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+_IsWritable	dftl_request_hil.cpp	/^HIL_REQUEST::_IsWritable(UINT32 channel, UINT32 way)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_IsWritable	dftl_request_meta.cpp	/^META_REQUEST::_IsWritable(VOID)$/;"	f	class:META_REQUEST	typeref:typename:BOOL
+_IssueProgram	dftl_activeblock.cpp	/^ACTIVE_BLOCK::_IssueProgram(VOID)$/;"	f	class:ACTIVE_BLOCK	typeref:typename:VOID
+_PrintInfo	dftl_global.cpp	/^DFTL_GLOBAL::_PrintInfo(VOID)$/;"	f	class:DFTL_GLOBAL	typeref:typename:VOID
+_ProcessDoneQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessDoneQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessGCRequestDoneQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessGCRequestDoneQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessGCRequestWaitQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessGCRequestWaitQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessHDMARequestIssuedQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessHDMARequestIssuedQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessHILRequestDoneQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessHILRequestDoneQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessHILRequestWaitQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessHILRequestWaitQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessMetaRequestDoneQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessMetaRequestDoneQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessMetaRequestWaitQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessMetaRequestWaitQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessRead	dftl_request_hil.cpp	/^HIL_REQUEST::_ProcessRead(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_ProcessRead_Done	dftl_request_hil.cpp	/^HIL_REQUEST::_ProcessRead_Done(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_ProcessRead_Done	dftl_request_hil.cpp	/^HIL_REQUEST_PER_WAY::_ProcessRead_Done(VOID)$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:BOOL
+_ProcessRead_Done	dftl_request_meta.cpp	/^META_REQUEST::_ProcessRead_Done(VOID)$/;"	f	class:META_REQUEST	typeref:typename:BOOL
+_ProcessRead_Issued	dftl_request_hil.cpp	/^HIL_REQUEST::_ProcessRead_Issued(VOID) {$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_ProcessRead_Wait	dftl_request_gc.cpp	/^GC_REQUEST::_ProcessRead_Wait(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+_ProcessRead_Wait	dftl_request_hil.cpp	/^HIL_REQUEST::_ProcessRead_Wait(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_ProcessRead_Wait	dftl_request_hil.cpp	/^HIL_REQUEST_PER_WAY::_ProcessRead_Wait(VOID)$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:BOOL
+_ProcessRead_Wait	dftl_request_meta.cpp	/^META_REQUEST::_ProcessRead_Wait(VOID)$/;"	f	class:META_REQUEST	typeref:typename:BOOL
+_ProcessWaitQ	dftl_request.cpp	/^REQUEST_MGR::_ProcessWaitQ(VOID)$/;"	f	class:REQUEST_MGR	typeref:typename:VOID
+_ProcessWrite	dftl_request_hil.cpp	/^HIL_REQUEST::_ProcessWrite(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_ProcessWrite_Done	dftl_request_gc.cpp	/^GC_REQUEST::_ProcessWrite_Done(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+_ProcessWrite_Done	dftl_request_meta.cpp	/^META_REQUEST::_ProcessWrite_Done(VOID)$/;"	f	class:META_REQUEST	typeref:typename:BOOL
+_ProcessWrite_Wait	dftl_request_gc.cpp	/^GC_REQUEST::_ProcessWrite_Wait(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+_ProcessWrite_Wait	dftl_request_hil.cpp	/^HIL_REQUEST::_ProcessWrite_Wait(VOID)$/;"	f	class:HIL_REQUEST	typeref:typename:BOOL
+_ProcessWrite_Wait	dftl_request_hil.cpp	/^HIL_REQUEST_PER_WAY::_ProcessWrite_Wait(VOID)$/;"	f	class:HIL_REQUEST_PER_WAY	typeref:typename:BOOL
+_ProcessWrite_Wait	dftl_request_meta.cpp	/^META_REQUEST::_ProcessWrite_Wait(VOID)$/;"	f	class:META_REQUEST	typeref:typename:BOOL
+_Read	dftl_garbagecollector.cpp	/^GC_MGR::_Read(VOID)$/;"	f	class:GC_MGR	typeref:typename:VOID
+_Release	dftl_meta.cpp	/^META_CACHE::_Release(META_CACHE_ENTRY* pstEntry)$/;"	f	class:META_CACHE	typeref:typename:VOID
+_ReleaseBuf	dftl_request_gc.cpp	/^GC_REQUEST::_ReleaseBuf(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:VOID
+__DFTL_ACTIVEBLOCK_H__	dftl_activeblock.h	/^#define __DFTL_ACTIVEBLOCK_H__$/;"	d
+__DFTL_BLOCK_H__	dftl_block.h	/^#define __DFTL_BLOCK_H__$/;"	d
+__DFTL_BUFFERPOOL_H__	dftl_bufferpool.h	/^#define __DFTL_BUFFERPOOL_H__$/;"	d
+__DFTL_CONFIG_H__	dftl_config.h	/^#define __DFTL_CONFIG_H__$/;"	d
+__DFTL_EXTERNAL_INTERFACE_H__	dftl_external_interface.h	/^#define __DFTL_EXTERNAL_INTERFACE_H__$/;"	d
+__DFTL_GARBAGECOLLECTOR_H__	dftl_garbagecollector.h	/^#define __DFTL_GARBAGECOLLECTOR_H__$/;"	d
+__DFTL_GLOBAL_H__	dftl_global.h	/^#define __DFTL_GLOBAL_H__$/;"	d
+__DFTL_HDMA_H__	dftl_hdma.h	/^#define __DFTL_HDMA_H__$/;"	d
+__DFTL_INTERNAL_H__	dftl_internal.h	/^#define __DFTL_INTERNAL_H__$/;"	d
+__DFTL_META_H__	dftl_meta.h	/^#define __DFTL_META_H__$/;"	d
+__DFTL_PROFILE_H__	dftl_profile.h	/^#define __DFTL_PROFILE_H__$/;"	d
+__DFTL_REQUEST_GC_H__	dftl_request_gc.h	/^#define __DFTL_REQUEST_GC_H__$/;"	d
+__DFTL_REQUEST_HIL_H__	dftl_request_hil.h	/^#define __DFTL_REQUEST_HIL_H__$/;"	d
+__DFTL_REQUEST_H__	dftl_request.h	/^#define __DFTL_REQUEST_H__$/;"	d
+__DFTL_REQUEST_META_H__	dftl_request_meta.h	/^#define __DFTL_REQUEST_META_H__$/;"	d
+__DFTL_TYPES_H__	dftl_types.h	/^#define __DFTL_TYPES_H__$/;"	d
+__DFTL_VNAND_H__	dftl_vnand.h	/^#define __DFTL_VNAND_H__$/;"	d
+__anon173b5f540103	dftl_garbagecollector.h	/^	{$/;"	g	class:GC_DEBUG
+__anon40a93af30103	dftl_request_meta.h	/^{$/;"	g
+__anon4422aaf90103	dftl_types.h	/^{$/;"	g
+__anon4482a6f50103	dftl_profile.h	/^typedef enum {$/;"	g
+__anon70a60d960103	dftl_request_gc.h	/^{$/;"	g
+__anon857e23c90103	dftl_request_hil.h	/^{$/;"	g
+__anonbc2401ef0103	dftl_block.h	/^{$/;"	g
+__anonbc2401ef0203	dftl_block.h	/^{$/;"	g
+__anonddd6d4950103	dftl_global.h	/^{$/;"	g
+_isWatableMeta	dftl_request_gc.cpp	/^GC_REQUEST::_isWatableMeta(VOID)$/;"	f	class:GC_REQUEST	typeref:typename:BOOL
+change_next_buffer	dftl_global.cpp	/^BUFFER_ENTRY * Read_Cache::change_next_buffer(UINT32 src_lpn, BUFFER_ENTRY * input_buf)$/;"	f	class:Read_Cache	typeref:typename:BUFFER_ENTRY *
+debug_type	dftl_bufferpool.h	/^	UINT8			debug_type;$/;"	m	class:BUFFER_ENTRY	typeref:typename:UINT8
+free_buffer_by_VPPN	dftl_global.cpp	/^VOID Read_Cache::free_buffer_by_VPPN(UINT32 nVPPN_input)$/;"	f	class:Read_Cache	typeref:typename:VOID
+g_pstDFTL	dftl_external_interface.cpp	/^DFTL_GLOBAL	*g_pstDFTL;$/;"	v	typeref:typename:DFTL_GLOBAL *
+get_buffer_by_VPPN	dftl_global.cpp	/^BUFFER_ENTRY * Read_Cache::get_buffer_by_VPPN(UINT32 nVPPN_input)$/;"	f	class:Read_Cache	typeref:typename:BUFFER_ENTRY *
+get_channel_from_lpn	dftl_global.h	/^#define get_channel_from_lpn(/;"	d
+get_lbn_from_lpn	dftl_global.h	/^#define get_lbn_from_lpn(/;"	d
+get_mod_lpn	dftl_meta.cpp	/^META_CACHE::get_mod_lpn(UINT32 nLPN) {$/;"	f	class:META_CACHE	typeref:typename:UINT32
+get_mod_lpn_from_lpn_lbn	dftl_global.h	/^#define get_mod_lpn_from_lpn_lbn(/;"	d
+get_page_from_lpn	dftl_global.h	/^#define get_page_from_lpn(/;"	d
+get_way_from_lpn	dftl_global.h	/^#define get_way_from_lpn(/;"	d
+isMetaGCing	dftl_global.h	/^	BOOL isMetaGCing() { return m_MetaGCing;}$/;"	f	class:DFTL_GLOBAL	typeref:typename:BOOL
+m_MetaGCing	dftl_global.h	/^	BOOL		m_MetaGCing;$/;"	m	class:DFTL_GLOBAL	typeref:typename:BOOL
+m_anBufferingLPNCount	dftl_activeblock.h	/^	UINT16		m_anBufferingLPNCount[HASH_BUCKET_COUNT];$/;"	m	class:BUFFERING_LPN	typeref:typename:UINT16[]
+m_anL2V	dftl_meta.h	/^	UINT32				m_anL2V[L2V_PER_META_PAGE];$/;"	m	class:META_CACHE_ENTRY	typeref:typename:UINT32[]
+m_anLPN	dftl_activeblock.h	/^	INT32				m_anLPN[LPN_PER_PHYSICAL_PAGE];			\/\/ Buffered LPN$/;"	m	class:PROGRAM_UNIT	typeref:typename:INT32[]
+m_apstVPNStatus	dftl_garbagecollector.h	/^	GC_DEBUG_FLAG*	m_apstVPNStatus;$/;"	m	class:GC_DEBUG	typeref:typename:GC_DEBUG_FLAG *
+m_astActiveBlockGC	dftl_activeblock.h	/^	ACTIVE_BLOCK	m_astActiveBlockGC[ACTIVE_BLOCK_COUNT_PER_STREAM];$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK[]
+m_astActiveBlockHost	dftl_activeblock.h	/^	ACTIVE_BLOCK	m_astActiveBlockHost[ACTIVE_BLOCK_COUNT_PER_STREAM];$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK[]
+m_astActiveBlockMeta	dftl_activeblock.h	/^	ACTIVE_BLOCK	m_astActiveBlockMeta[ACTIVE_BLOCK_COUNT_PER_STREAM];$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK[]
+m_astBuffering	dftl_activeblock.h	/^	PROGRAM_UNIT	m_astBuffering[ACTIVE_BLOCK_BUFFERING_COUNT];		\/\/ program buffering information$/;"	m	class:ACTIVE_BLOCK	typeref:typename:PROGRAM_UNIT[]
+m_astCacheEntry	dftl_meta.h	/^	META_CACHE_ENTRY	m_astCacheEntry[META_CACHE_ENTRY_COUNT];$/;"	m	class:META_CACHE	typeref:typename:META_CACHE_ENTRY[]
+m_astRequestID	dftl_activeblock.h	/^	FTL_REQUEST_ID		m_astRequestID[LPN_PER_PHYSICAL_PAGE];	\/\/ request ID for current request = Re/;"	m	class:PROGRAM_UNIT	typeref:typename:FTL_REQUEST_ID[]
+m_astRequestPerWayPool	dftl_request_hil.h	/^	HIL_REQUEST_PER_WAY		m_astRequestPerWayPool[HIL_REQUEST_COUNT];$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST_PER_WAY[]
+m_astRequestPool	dftl_request_gc.h	/^	GC_REQUEST				m_astRequestPool[GC_REQUEST_COUNT];$/;"	m	class:GC_REQUEST_INFO	typeref:typename:GC_REQUEST[]
+m_astRequestPool	dftl_request_hil.h	/^	HIL_REQUEST				m_astRequestPool[HIL_REQUEST_COUNT];$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:HIL_REQUEST[]
+m_astRequestPool	dftl_request_meta.h	/^	META_REQUEST			m_astRequestPool[META_REQUEST_COUNT];$/;"	m	class:META_REQUEST_INFO	typeref:typename:META_REQUEST[]
+m_astStatistics	dftl_global.h	/^	PROFILE_ENTRY	m_astStatistics[PROFILE_COUNT];$/;"	m	class:PROFILE	typeref:typename:PROFILE_ENTRY[]
+m_bActive	dftl_block.h	/^	unsigned int		m_bActive : 1;		\/\/ active block$/;"	m	class:VBINFO	typeref:typename:unsigned int:1
+m_bBad	dftl_block.h	/^	unsigned int		m_bBad	: 1;		\/\/ bad block$/;"	m	class:VBINFO	typeref:typename:unsigned int:1
+m_bBufferHit	dftl_request_meta.h	/^	unsigned int		m_bBufferHit : 1;		\/\/ hit on the write buffering LPN$/;"	m	class:META_REQUEST	typeref:typename:unsigned int:1
+m_bDirty	dftl_meta.h	/^	unsigned int		m_bDirty : 1;		\/\/ this cache entry is updated, need to stored to meta block$/;"	m	class:META_CACHE_ENTRY	typeref:typename:unsigned int:1
+m_bEnableMetaBlock	dftl_global.h	/^	BOOL		m_bEnableMetaBlock;$/;"	m	class:DFTL_GLOBAL	typeref:typename:BOOL
+m_bFormatted	dftl_block.h	/^	unsigned int		m_bFormatted : 1;	\/\/ format status$/;"	m	class:BLOCK_MGR	typeref:typename:unsigned int:1
+m_bFormatted	dftl_meta.h	/^	unsigned int	m_bFormatted : 1;	\/\/ format status$/;"	m	class:META_MGR	typeref:typename:unsigned int:1
+m_bFree	dftl_activeblock.h	/^	unsigned int		m_bFree : 1;			\/\/ this entry is free$/;"	m	class:PROGRAM_UNIT	typeref:typename:unsigned int:1
+m_bFree	dftl_block.h	/^	unsigned int		m_bFree : 1;		\/\/ free blcok$/;"	m	class:VBINFO	typeref:typename:unsigned int:1
+m_bGC	dftl_block.h	/^	unsigned int		m_bGC	: 1;		\/\/ gc block$/;"	m	class:VBINFO	typeref:typename:unsigned int:1
+m_bIORunning	dftl_meta.h	/^	unsigned int		m_bIORunning : 1;	\/\/ on Read\/programming entry$/;"	m	class:META_CACHE_ENTRY	typeref:typename:unsigned int:1
+m_bMeta	dftl_block.h	/^	unsigned int		m_bMeta : 1;		\/\/ meta block$/;"	m	class:VBINFO	typeref:typename:unsigned int:1
+m_bProgramming	dftl_activeblock.h	/^	unsigned int		m_bProgramming : 1;		\/\/ on programming$/;"	m	class:PROGRAM_UNIT	typeref:typename:unsigned int:1
+m_bUser	dftl_block.h	/^	unsigned int		m_bUser : 1;		\/\/ user block$/;"	m	class:VBINFO	typeref:typename:unsigned int:1
+m_bValid	dftl_meta.h	/^	unsigned int		m_bValid : 1;		\/\/ a Valid Entry$/;"	m	class:META_CACHE_ENTRY	typeref:typename:unsigned int:1
+m_channel	dftl_garbagecollector.h	/^	UINT32 m_channel;$/;"	m	class:GC_MGR	typeref:typename:UINT32
+m_channel	dftl_request_hil.h	/^	INT32 m_channel;$/;"	m	class:HIL_REQUEST_PER_WAY	typeref:typename:INT32
+m_dlBuffer	dftl_request_hil.h	/^	struct list_head	m_dlBuffer;				\/\/ read buffer list$/;"	m	class:HIL_REQUEST	typeref:struct:list_head
+m_dlDone	dftl_request_gc.h	/^	struct list_head		m_dlDone;				\/\/ Read done or Program done$/;"	m	class:GC_REQUEST_INFO	typeref:struct:list_head
+m_dlDone	dftl_request_hil.h	/^	struct list_head		m_dlDone;				\/\/ Read done or Program done$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlDone	dftl_request_meta.h	/^	struct list_head		m_dlDone;				\/\/ Read done or Program done$/;"	m	class:META_REQUEST_INFO	typeref:struct:list_head
+m_dlDone_per_way	dftl_request_hil.h	/^	struct list_head	m_dlDone_per_way;$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlFree	dftl_bufferpool.h	/^	struct list_head	m_dlFree;		\/\/ to link free list$/;"	m	class:BUFFER_MGR	typeref:struct:list_head
+m_dlFree	dftl_meta.h	/^	struct list_head	m_dlFree;		\/\/ Free cache entry list$/;"	m	class:META_CACHE	typeref:struct:list_head
+m_dlFree	dftl_request_gc.h	/^	struct list_head		m_dlFree;				\/\/ free NVMeRequest$/;"	m	class:GC_REQUEST_INFO	typeref:struct:list_head
+m_dlFree	dftl_request_hil.h	/^	struct list_head		m_dlFree;				\/\/ free NVMeRequest$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlFree	dftl_request_meta.h	/^	struct list_head		m_dlFree;				\/\/ free NVMeRequest$/;"	m	class:META_REQUEST_INFO	typeref:struct:list_head
+m_dlFreeBlocks	dftl_block.h	/^	struct list_head	m_dlFreeBlocks[USER_CHANNELS][USER_WAYS];		\/\/ list for connecting free block/;"	m	class:BLOCK_MGR	typeref:struct:list_head[][]
+m_dlFreeCount_per_way	dftl_request_hil.h	/^	INT32				m_dlFreeCount_per_way;$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_dlFree_per_way	dftl_request_hil.h	/^	struct list_head	m_dlFree_per_way;$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlHDMA	dftl_request_hil.h	/^	struct list_head		m_dlHDMA;				\/\/ host DMA issued list$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlIssued	dftl_request_gc.h	/^	struct list_head		m_dlIssued;			\/\/ issued queue$/;"	m	class:GC_REQUEST_INFO	typeref:struct:list_head
+m_dlIssued	dftl_request_hil.h	/^	struct list_head		m_dlIssued;			\/\/ issued queue$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlIssued	dftl_request_meta.h	/^	struct list_head		m_dlIssued;			\/\/ issued queue$/;"	m	class:META_REQUEST_INFO	typeref:struct:list_head
+m_dlIssued_per_way	dftl_request_hil.h	/^	struct list_head	m_dlIssued_per_way;$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlLRU	dftl_meta.h	/^	struct list_head	m_dlLRU;		\/\/ LRU for victim Meta cache entry selection, MRU:@Head, LRU:@tail$/;"	m	class:META_CACHE	typeref:struct:list_head
+m_dlList	dftl_block.h	/^	struct list_head	m_dlList;			\/\/ list for connecting free block list$/;"	m	class:VBINFO	typeref:struct:list_head
+m_dlList	dftl_bufferpool.h	/^	struct list_head	m_dlList;		\/\/ to link free list$/;"	m	class:BUFFER_ENTRY	typeref:struct:list_head
+m_dlList	dftl_meta.h	/^	struct list_head	m_dlList;$/;"	m	class:META_CACHE_ENTRY	typeref:struct:list_head
+m_dlList	dftl_request_gc.h	/^	struct list_head	m_dlList;				\/\/ list for queueing$/;"	m	class:GC_REQUEST	typeref:struct:list_head
+m_dlList	dftl_request_hil.h	/^	struct list_head	m_dlList;				\/\/ list for queueing$/;"	m	class:HIL_REQUEST	typeref:struct:list_head
+m_dlList	dftl_request_meta.h	/^	struct list_head	m_dlList;				\/\/ list for queueing$/;"	m	class:META_REQUEST	typeref:struct:list_head
+m_dlUsedBlocks	dftl_block.h	/^	struct list_head	m_dlUsedBlocks[USER_CHANNELS][USER_WAYS];		\/\/ allocated block list, $/;"	m	class:BLOCK_MGR	typeref:struct:list_head[][]
+m_dlWait	dftl_request_gc.h	/^	struct list_head		m_dlWait;				\/\/ NAND issue wait queue$/;"	m	class:GC_REQUEST_INFO	typeref:struct:list_head
+m_dlWait	dftl_request_hil.h	/^	struct list_head		m_dlWait;				\/\/ NAND issue wait queue$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head
+m_dlWait	dftl_request_meta.h	/^	struct list_head		m_dlWait;				\/\/ NAND issue wait queue$/;"	m	class:META_REQUEST_INFO	typeref:struct:list_head
+m_dlWait	dftl_request_meta.h	/^	struct list_head		m_dlWait[USER_CHANNELS][USER_WAYS];				\/\/ NAND issue wait queue$/;"	m	class:META_REQUEST_INFO	typeref:struct:list_head[][]
+m_dlWait_per_way	dftl_request_hil.h	/^	struct list_head	m_dlWait_per_way[USER_CHANNELS][USER_WAYS];$/;"	m	class:HIL_REQUEST_INFO	typeref:struct:list_head[][]
+m_eBlockType	dftl_activeblock.h	/^	IOTYPE			m_eBlockType;				\/\/ type of active block$/;"	m	class:ACTIVE_BLOCK	typeref:typename:IOTYPE
+m_eIOType	dftl_activeblock.h	/^	IOTYPE		m_eIOType;$/;"	m	class:BUFFERING_LPN	typeref:typename:IOTYPE
+m_eIOType	dftl_garbagecollector.h	/^	IOTYPE		m_eIOType;$/;"	m	class:GC_MGR	typeref:typename:IOTYPE
+m_eIOType	dftl_types.h	/^	IOTYPE	m_eIOType;$/;"	m	class:COMMON_REQUEST	typeref:typename:IOTYPE
+m_eStatus	dftl_global.h	/^	DFTL_STATUS	m_eStatus;$/;"	m	class:DFTL_GLOBAL	typeref:typename:DFTL_STATUS
+m_eType	dftl_block.h	/^	BLOCK_MGR_TYPE		m_eType;$/;"	m	class:BLOCK_MGR	typeref:typename:BLOCK_MGR_TYPE
+m_fOverProvisionRatio	dftl_global.h	/^	float		m_fOverProvisionRatio;$/;"	m	class:DFTL_GLOBAL	typeref:typename:float
+m_nChannel	dftl_request_gc.h	/^	UINT32					m_nChannel;$/;"	m	class:GC_REQUEST	typeref:typename:UINT32
+m_nChannel	dftl_request_meta.h	/^	UINT32					m_nChannel;$/;"	m	class:META_REQUEST	typeref:typename:UINT32
+m_nCmd	dftl_request_hil.h	/^	NVME_CMD_OPCODE		m_nCmd;					\/\/ bool 0:Read, 1:Write, assign 1 more  bit for signed enum type$/;"	m	class:HIL_REQUEST	typeref:typename:NVME_CMD_OPCODE
+m_nCurActiveBlockGC	dftl_activeblock.h	/^	INT8			m_nCurActiveBlockGC;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:INT8
+m_nCurActiveBlockHost	dftl_activeblock.h	/^	INT8			m_nCurActiveBlockHost;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:INT8
+m_nCurActiveBlockMeta	dftl_activeblock.h	/^	INT8			m_nCurActiveBlockMeta;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:INT8
+m_nCurProgramBuffering	dftl_activeblock.h	/^	unsigned int	m_nCurProgramBuffering : ACTIVE_BLOCK_BUFFERING_INDEX_BITS;$/;"	m	class:ACTIVE_BLOCK	typeref:typename:unsigned int
+m_nCurReadVPageOffset	dftl_garbagecollector.h	/^	UINT32	m_nCurReadVPageOffset;	\/\/ Read logical page offset$/;"	m	class:GC_MGR	typeref:typename:UINT32
+m_nCurVPPN	dftl_activeblock.h	/^	UINT32			m_nCurVPPN;				\/\/ PPN recently written$/;"	m	class:ACTIVE_BLOCK	typeref:typename:UINT32
+m_nDMAOverFlowCount	dftl_activeblock.h	/^	UINT32				m_nDMAOverFlowCount;		\/\/ count of DMA index overflow, to check HDMA done$/;"	m	class:PROGRAM_UNIT	typeref:typename:UINT32
+m_nDMAOverFlowCount	dftl_request_hil.h	/^	unsigned int		m_nDMAOverFlowCount;	\/\/ count of DMA index overflow, to check HDMA done$/;"	m	class:HIL_REQUEST	typeref:typename:unsigned int
+m_nDMAReqTail	dftl_activeblock.h	/^	unsigned int		m_nDMAReqTail : 8;		\/\/ DMA tail request, to check HDMA done, Host Write only$/;"	m	class:PROGRAM_UNIT	typeref:typename:unsigned int:8
+m_nDMAReqTail	dftl_request_hil.h	/^	unsigned int		m_nDMAReqTail : 8;		\/\/ DMA tail request, to check HDMA done$/;"	m	class:HIL_REQUEST	typeref:typename:unsigned int:8
+m_nDMA_offset	dftl_request_hil.h	/^	UINT16 m_nDMA_offset;$/;"	m	class:HIL_REQUEST_PER_WAY	typeref:typename:UINT16
+m_nDoneCount	dftl_request_gc.h	/^	INT32					m_nDoneCount;$/;"	m	class:GC_REQUEST_INFO	typeref:typename:INT32
+m_nDoneCount	dftl_request_hil.h	/^	INT32					m_nDoneCount;$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_nDoneCount	dftl_request_meta.h	/^	INT32					m_nDoneCount;$/;"	m	class:META_REQUEST_INFO	typeref:typename:INT32
+m_nDoneCount_per_way	dftl_request_hil.h	/^	INT32				m_nDoneCount_per_way;$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_nDoneLPNCount	dftl_request_hil.h	/^	UINT16				m_nDoneLPNCount;		\/\/ LPN Count for (read done) or (write buffered)$/;"	m	class:HIL_REQUEST	typeref:typename:UINT16
+m_nEC	dftl_vnand.h	/^	INT32	m_nEC;				\/\/ Erase Count of block$/;"	m	class:VIRTUAL_BLOCK	typeref:typename:INT32
+m_nFormatMetaLPN	dftl_meta.h	/^	UINT32				m_nFormatMetaLPN;$/;"	m	class:META_CACHE	typeref:typename:UINT32
+m_nFreeBlocks	dftl_block.h	/^	UINT32				m_nFreeBlocks[USER_CHANNELS][USER_WAYS];		\/\/ free block count$/;"	m	class:BLOCK_MGR	typeref:typename:UINT32[][]
+m_nFreeCount	dftl_bufferpool.h	/^	INT32				m_nFreeCount;$/;"	m	class:BUFFER_MGR	typeref:typename:INT32
+m_nFreeCount	dftl_meta.h	/^	INT32				m_nFreeCount;$/;"	m	class:META_CACHE	typeref:typename:INT32
+m_nFreeCount	dftl_request_gc.h	/^	INT32					m_nFreeCount;			\/\/ count of free request$/;"	m	class:GC_REQUEST_INFO	typeref:typename:INT32
+m_nFreeCount	dftl_request_hil.h	/^	INT32					m_nFreeCount;			\/\/ count of free request$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_nFreeCount	dftl_request_meta.h	/^	INT32					m_nFreeCount;			\/\/ count of free request$/;"	m	class:META_REQUEST_INFO	typeref:typename:INT32
+m_nGCTh	dftl_global.h	/^	UINT32		m_nGCTh;				\/\/ free block count for GC trigger$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nHDMACount	dftl_request_hil.h	/^	INT32					m_nHDMACount;$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_nHit	dftl_meta.h	/^	UINT32				m_nHit;			\/\/ L2P Hit Count$/;"	m	class:META_CACHE	typeref:typename:UINT32
+m_nHostCmdSlotTag	dftl_request_hil.h	/^	UINT32				m_nHostCmdSlotTag;		\/\/ SQ Tag from HIL, This is used for HDMA$/;"	m	class:HIL_REQUEST	typeref:typename:UINT32
+m_nInvalidLPN	dftl_block.h	/^	UINT32				m_nInvalidLPN;$/;"	m	class:VBINFO	typeref:typename:UINT32
+m_nIssuedCount	dftl_garbagecollector.h	/^	UINT32	m_nIssuedCount;$/;"	m	class:GC_MGR	typeref:typename:UINT32
+m_nIssuedCount	dftl_request_gc.h	/^	INT32					m_nIssuedCount;$/;"	m	class:GC_REQUEST_INFO	typeref:typename:INT32
+m_nIssuedCount	dftl_request_hil.h	/^	INT32					m_nIssuedCount;$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_nIssuedCount	dftl_request_meta.h	/^	INT32					m_nIssuedCount;$/;"	m	class:META_REQUEST_INFO	typeref:typename:INT32
+m_nIssuedCount_per_way	dftl_request_hil.h	/^	INT32				m_nIssuedCount_per_way;$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_nIssued_Count	dftl_request_hil.h	/^	INT32				m_nIssued_Count;$/;"	m	class:HIL_REQUEST	typeref:typename:INT32
+m_nLPN	dftl_request_gc.h	/^	INT32				m_nLPN;					\/\/ LPN$/;"	m	class:GC_REQUEST	typeref:typename:INT32
+m_nLPN	dftl_request_hil.h	/^	INT32				m_nLPN;					\/\/ LPN$/;"	m	class:HIL_REQUEST	typeref:typename:INT32
+m_nLPNCount	dftl_activeblock.h	/^	unsigned int		m_nLPNCount : 3;		\/\/ max 4 LPNs$/;"	m	class:PROGRAM_UNIT	typeref:typename:unsigned int:3
+m_nLPNCount	dftl_global.h	/^	UINT32		m_nLPNCount;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nLPNCount	dftl_request_hil.h	/^	UINT16				m_nLPNCount;			\/\/ count of read LPN$/;"	m	class:HIL_REQUEST	typeref:typename:UINT16
+m_nLPagesPerVBlockBits	dftl_global.h	/^	UINT32		m_nLPagesPerVBlockBits;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nLPagesPerVBlockMask	dftl_global.h	/^	UINT32		m_nLPagesPerVBlockMask;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nLogicalFlashSizeKB	dftl_global.h	/^	UINT32		m_nLogicalFlashSizeKB;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nMetaEntryIndex	dftl_request_meta.h	/^	unsigned int		m_nMetaEntryIndex : 8;$/;"	m	class:META_REQUEST	typeref:typename:unsigned int:8
+m_nMetaLPN	dftl_meta.h	/^	UINT32				m_nMetaLPN;		\/\/ Meta Pate Number$/;"	m	class:META_CACHE_ENTRY	typeref:typename:UINT32
+m_nMetaLPN	dftl_request_meta.h	/^	INT32				m_nMetaLPN;				\/\/ Meta LPN$/;"	m	class:META_REQUEST	typeref:typename:INT32
+m_nMiss	dftl_meta.h	/^	UINT32				m_nMiss;		\/\/ L2P Miss Count$/;"	m	class:META_CACHE	typeref:typename:UINT32
+m_nOverprovisionSizeKB	dftl_global.h	/^	UINT32		m_nOverprovisionSizeKB;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nPhysicalFlashSizeKB	dftl_global.h	/^	UINT32		m_nPhysicalFlashSizeKB;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nRead	dftl_garbagecollector.h	/^	UINT32			m_nRead;$/;"	m	class:GC_DEBUG	typeref:typename:UINT32
+m_nReqType	dftl_request_gc.h	/^	FTL_REQUEST_ID_TYPE		m_nReqType;$/;"	m	class:GC_REQUEST_INFO	typeref:typename:FTL_REQUEST_ID_TYPE
+m_nReqType	dftl_request_meta.h	/^	FTL_REQUEST_ID_TYPE		m_nReqType;$/;"	m	class:META_REQUEST_INFO	typeref:typename:FTL_REQUEST_ID_TYPE
+m_nRequestIndex	dftl_request_gc.h	/^	unsigned int		m_nRequestIndex:FTL_REQUEST_ID_REQUEST_INDEX_BITS;$/;"	m	class:GC_REQUEST	typeref:typename:unsigned int
+m_nRequestIndex	dftl_request_hil.h	/^	unsigned int		m_nRequestIndex:FTL_REQUEST_ID_REQUEST_INDEX_BITS;$/;"	m	class:HIL_REQUEST	typeref:typename:unsigned int
+m_nRequestIndex	dftl_request_meta.h	/^	unsigned int		m_nRequestIndex:FTL_REQUEST_ID_REQUEST_INDEX_BITS;$/;"	m	class:META_REQUEST	typeref:typename:unsigned int
+m_nStatus	dftl_request_gc.h	/^	GC_REQUEST_STATUS	m_nStatus;$/;"	m	class:GC_REQUEST	typeref:typename:GC_REQUEST_STATUS
+m_nStatus	dftl_request_hil.h	/^	HIL_REQUEST_STATUS	m_nStatus;$/;"	m	class:HIL_REQUEST	typeref:typename:HIL_REQUEST_STATUS
+m_nStatus	dftl_request_meta.h	/^	META_REQUEST_STATUS	m_nStatus;$/;"	m	class:META_REQUEST	typeref:typename:META_REQUEST_STATUS
+m_nThreshold	dftl_garbagecollector.h	/^	UINT32		m_nThreshold;$/;"	m	class:GC_MGR	typeref:typename:UINT32
+m_nTotalCount	dftl_bufferpool.h	/^	INT32				m_nTotalCount;$/;"	m	class:BUFFER_MGR	typeref:typename:INT32
+m_nUsedBlocks	dftl_block.h	/^	UINT32				m_nUsedBlocks[USER_CHANNELS][USER_WAYS];		\/\/ used block count$/;"	m	class:BLOCK_MGR	typeref:typename:UINT32[][]
+m_nVBN	dftl_activeblock.h	/^	UINT32			m_nVBN;$/;"	m	class:ACTIVE_BLOCK	typeref:typename:UINT32
+m_nVBN	dftl_block.h	/^	UINT32				m_nVBN;				\/\/ Virtual Block Number$/;"	m	class:VBINFO	typeref:typename:UINT32
+m_nVBlockCount	dftl_global.h	/^	UINT32		m_nVBlockCount;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nVBlockSizeKB	dftl_global.h	/^	UINT32		m_nVBlockSizeKB;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nVPC	dftl_garbagecollector.h	/^	INT32	m_nVPC;					\/\/ Valid Page count of VBN @ GC start$/;"	m	class:GC_MGR	typeref:typename:INT32
+m_nVPC	dftl_meta.h	/^	UINT32		m_nVPC;				\/\/ FTL Valid Page Count$/;"	m	class:META_MGR	typeref:typename:UINT32
+m_nVPPN	dftl_activeblock.h	/^	UINT32				m_nVPPN;					\/\/ Program VPPN, 1st page of requests$/;"	m	class:PROGRAM_UNIT	typeref:typename:UINT32
+m_nVPPN	dftl_request_gc.h	/^	INT32				m_nVPPN;				\/\/ Source VPPN, to get LPN data offset in pMainBuf$/;"	m	class:GC_REQUEST	typeref:typename:INT32
+m_nVPPN	dftl_request_meta.h	/^	INT32				m_nVPPN;				\/\/ Meta VPPN,$/;"	m	class:META_REQUEST	typeref:typename:INT32
+m_nVPagesPerVBlock	dftl_global.h	/^	UINT32		m_nVPagesPerVBlock;$/;"	m	class:DFTL_GLOBAL	typeref:typename:UINT32
+m_nVictimVBN	dftl_garbagecollector.h	/^	INT32	m_nVictimVBN;			\/\/ Victim block$/;"	m	class:GC_MGR	typeref:typename:INT32
+m_nWaitCount	dftl_request_gc.h	/^	INT32					m_nWaitCount;$/;"	m	class:GC_REQUEST_INFO	typeref:typename:INT32
+m_nWaitCount	dftl_request_hil.h	/^	INT32					m_nWaitCount;$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32
+m_nWaitCount	dftl_request_meta.h	/^	INT32					m_nWaitCount;$/;"	m	class:META_REQUEST_INFO	typeref:typename:INT32
+m_nWaitCount	dftl_request_meta.h	/^	INT32					m_nWaitCount[USER_CHANNELS][USER_WAYS];$/;"	m	class:META_REQUEST_INFO	typeref:typename:INT32[][]
+m_nWaitCount_per_way	dftl_request_hil.h	/^	INT32				m_nWaitCount_per_way[USER_CHANNELS][USER_WAYS];$/;"	m	class:HIL_REQUEST_INFO	typeref:typename:INT32[][]
+m_nWay	dftl_request_gc.h	/^	UINT32					m_nWay;$/;"	m	class:GC_REQUEST	typeref:typename:UINT32
+m_nWay	dftl_request_meta.h	/^	UINT32					m_nWay;$/;"	m	class:META_REQUEST	typeref:typename:UINT32
+m_nWrite	dftl_garbagecollector.h	/^	UINT32			m_nWrite;$/;"	m	class:GC_DEBUG	typeref:typename:UINT32
+m_nWriteCount	dftl_garbagecollector.h	/^	INT32	m_nWriteCount;	\/\/ count of write issued LPN$/;"	m	class:GC_MGR	typeref:typename:INT32
+m_nchannel	dftl_activeblock.h	/^	UINT32	m_nchannel;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:UINT32
+m_nway	dftl_activeblock.h	/^	UINT32	m_nway;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:UINT32
+m_pData	dftl_vnand.h	/^	VOID*	m_pData;		\/\/ Main Area of NAND for store FTL metadata$/;"	m	class:VIRTUAL_BLOCK	typeref:typename:VOID *
+m_pMainBuf	dftl_bufferpool.h	/^	void*				m_pMainBuf;$/;"	m	class:BUFFER_ENTRY	typeref:typename:void *
+m_pSpareBuf	dftl_bufferpool.h	/^	void*				m_pSpareBuf;$/;"	m	class:BUFFER_ENTRY	typeref:typename:void *
+m_panL2V	dftl_meta.h	/^	UINT32		*m_panL2V;			\/\/ L2VPpn Array$/;"	m	class:META_MGR	typeref:typename:UINT32 *
+m_panL2V	dftl_meta.h	/^	UINT32		*m_panL2V;$/;"	m	class:META_L2V_MGR	typeref:typename:UINT32 *
+m_parent_req	dftl_request_hil.h	/^	HIL_REQUEST *m_parent_req;$/;"	m	class:HIL_REQUEST_PER_WAY	typeref:typename:HIL_REQUEST *
+m_pastEntry	dftl_bufferpool.h	/^	BUFFER_ENTRY*		m_pastEntry;$/;"	m	class:BUFFER_MGR	typeref:typename:BUFFER_ENTRY *
+m_pastVBInfo	dftl_block.h	/^	VBINFO*	m_pastVBInfo;		\/\/ VBInfo array$/;"	m	class:VBINFO_MGR	typeref:typename:VBINFO *
+m_pbValid	dftl_vnand.h	/^	UINT8*	m_pbValid;			\/\/ Logical Page Valid Bitmap$/;"	m	class:VIRTUAL_BLOCK	typeref:typename:UINT8 *
+m_pnV2L	dftl_vnand.h	/^	UINT32*	m_pnV2L;			\/\/ store PPN 2 LPN$/;"	m	class:VIRTUAL_BLOCK	typeref:typename:UINT32 *
+m_pstBlockMgr	dftl_garbagecollector.h	/^	BLOCK_MGR*	m_pstBlockMgr;$/;"	m	class:GC_POLICY_GREEDY	typeref:typename:BLOCK_MGR *
+m_pstBufEntry	dftl_request_gc.h	/^	BUFFER_ENTRY*		m_pstBufEntry;$/;"	m	class:GC_REQUEST	typeref:typename:BUFFER_ENTRY *
+m_pstBufEntry	dftl_request_meta.h	/^	BUFFER_ENTRY*		m_pstBufEntry;$/;"	m	class:META_REQUEST	typeref:typename:BUFFER_ENTRY *
+m_pstBufferEntry	dftl_activeblock.h	/^	BUFFER_ENTRY*		m_pstBufferEntry;			\/\/ NAND IO Buffer$/;"	m	class:PROGRAM_UNIT	typeref:typename:BUFFER_ENTRY *
+m_pstCurActiveBlockGC	dftl_activeblock.h	/^	ACTIVE_BLOCK*	m_pstCurActiveBlockGC;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK *
+m_pstCurActiveBlockHost	dftl_activeblock.h	/^	ACTIVE_BLOCK*	m_pstCurActiveBlockHost;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK *
+m_pstCurActiveBlockMeta	dftl_activeblock.h	/^	ACTIVE_BLOCK*	m_pstCurActiveBlockMeta;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:ACTIVE_BLOCK *
+m_pstInstance	dftl_global.cpp	/^DFTL_GLOBAL* DFTL_GLOBAL::m_pstInstance;$/;"	m	class:DFTL_GLOBAL	typeref:typename:DFTL_GLOBAL *
+m_pstInstance	dftl_global.h	/^	static DFTL_GLOBAL*	m_pstInstance;$/;"	m	class:DFTL_GLOBAL	typeref:typename:DFTL_GLOBAL *
+m_pstMetaEntry	dftl_request_meta.h	/^	VOID*				m_pstMetaEntry;			\/\/ Meta Cache Entry pointer$/;"	m	class:META_REQUEST	typeref:typename:VOID *
+m_pstVB	dftl_vnand.h	/^	VIRTUAL_BLOCK*		m_pstVB[USER_CHANNELS][USER_WAYS];$/;"	m	class:VNAND	typeref:typename:VIRTUAL_BLOCK * [][]
+m_stActiveBlockMgr	dftl_global.h	/^	ACTIVE_BLOCK_MGR	m_stActiveBlockMgr[USER_CHANNELS][USER_WAYS];$/;"	m	class:DFTL_GLOBAL	typeref:typename:ACTIVE_BLOCK_MGR[][]
+m_stBufferMgr	dftl_global.h	/^	BUFFER_MGR			m_stBufferMgr;$/;"	m	class:DFTL_GLOBAL	typeref:typename:BUFFER_MGR
+m_stBufferingMgr	dftl_activeblock.h	/^	BUFFERING_LPN	m_stBufferingMgr;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:BUFFERING_LPN
+m_stDebug	dftl_garbagecollector.h	/^	GC_DEBUG	m_stDebug;$/;"	m	class:GC_MGR	typeref:typename:GC_DEBUG
+m_stGCMgr	dftl_global.h	/^	GC_MGR				m_stGCMgr[USER_CHANNELS][USER_WAYS];				\/\/ garbage collector$/;"	m	class:DFTL_GLOBAL	typeref:typename:GC_MGR[][]
+m_stGCRequestInfo	dftl_request.h	/^	GC_REQUEST_INFO		m_stGCRequestInfo;			\/\/ USER & META GC$/;"	m	class:REQUEST_MGR	typeref:typename:GC_REQUEST_INFO
+m_stHILRequestInfo	dftl_request.h	/^	HIL_REQUEST_INFO	m_stHILRequestInfo;$/;"	m	class:REQUEST_MGR	typeref:typename:HIL_REQUEST_INFO
+m_stHostDMA	dftl_global.h	/^	HDMA				m_stHostDMA;$/;"	m	class:DFTL_GLOBAL	typeref:typename:HDMA
+m_stMetaBlockMgr	dftl_global.h	/^	BLOCK_MGR			m_stMetaBlockMgr;		\/\/ block module$/;"	m	class:DFTL_GLOBAL	typeref:typename:BLOCK_MGR
+m_stMetaBufferingMgr	dftl_activeblock.h	/^	BUFFERING_LPN	m_stMetaBufferingMgr;$/;"	m	class:ACTIVE_BLOCK_MGR	typeref:typename:BUFFERING_LPN
+m_stMetaCache	dftl_meta.h	/^	META_CACHE	m_stMetaCache;$/;"	m	class:META_MGR	typeref:typename:META_CACHE
+m_stMetaGCMgr	dftl_global.h	/^	GC_MGR				m_stMetaGCMgr[USER_CHANNELS][USER_WAYS];			\/\/ meta garbage collector$/;"	m	class:DFTL_GLOBAL	typeref:typename:GC_MGR[][]
+m_stMetaL2VMgr	dftl_global.h	/^	META_L2V_MGR		m_stMetaL2VMgr;			\/\/ met data location$/;"	m	class:DFTL_GLOBAL	typeref:typename:META_L2V_MGR
+m_stMetaMgr	dftl_global.h	/^	META_MGR			m_stMetaMgr;			\/\/ meta moudle$/;"	m	class:DFTL_GLOBAL	typeref:typename:META_MGR
+m_stMetaRequestInfo	dftl_request.h	/^	META_REQUEST_INFO	m_stMetaRequestInfo;$/;"	m	class:REQUEST_MGR	typeref:typename:META_REQUEST_INFO
+m_stProfile	dftl_global.h	/^	PROFILE		m_stProfile;$/;"	m	class:DFTL_GLOBAL	typeref:typename:PROFILE
+m_stReadCache	dftl_global.h	/^	Read_Cache			m_stReadCache;$/;"	m	class:DFTL_GLOBAL	typeref:typename:Read_Cache
+m_stRequestMgr	dftl_global.h	/^	REQUEST_MGR			m_stRequestMgr;			\/\/ read\/write request manager$/;"	m	class:DFTL_GLOBAL	typeref:typename:REQUEST_MGR
+m_stUserBlockMgr	dftl_global.h	/^	BLOCK_MGR			m_stUserBlockMgr;		\/\/ block module$/;"	m	class:DFTL_GLOBAL	typeref:typename:BLOCK_MGR
+m_stVBInfoMgr	dftl_global.h	/^	VBINFO_MGR			m_stVBInfoMgr[USER_CHANNELS][USER_WAYS];			\/\/ Virtual Information Manager$/;"	m	class:DFTL_GLOBAL	typeref:typename:VBINFO_MGR[][]
+m_stVNand	dftl_global.h	/^	VNAND				m_stVNand;				\/\/ virtual nand module$/;"	m	class:DFTL_GLOBAL	typeref:typename:VNAND
+m_way	dftl_garbagecollector.h	/^	UINT32 m_way;$/;"	m	class:GC_MGR	typeref:typename:UINT32
+m_way	dftl_request_hil.h	/^	INT32 m_way;$/;"	m	class:HIL_REQUEST_PER_WAY	typeref:typename:INT32
+nVPPN	dftl_bufferpool.h	/^	UINT32				nVPPN;$/;"	m	class:BUFFER_ENTRY	typeref:typename:UINT32
+nVPPN	dftl_global.h	/^	UINT32 nVPPN[MAX_READ_CACHE_ENTRY];$/;"	m	class:Read_Cache	typeref:typename:UINT32[]
+pBufEntry	dftl_request_hil.h	/^	BUFFER_ENTRY	*pBufEntry[LPN_PER_PHYSICAL_PAGE];$/;"	m	class:HIL_REQUEST_PER_WAY	typeref:typename:BUFFER_ENTRY * []
+readDone	dftl_bufferpool.h	/^	BOOL				readDone;$/;"	m	class:BUFFER_ENTRY	typeref:typename:BOOL
+read_VPPN	dftl_request_hil.h	/^	UINT32 read_VPPN[LPN_PER_PHYSICAL_PAGE];$/;"	m	class:HIL_REQUEST_PER_WAY	typeref:typename:UINT32[]
+readtype	dftl_bufferpool.h	/^	UINT8				readtype;$/;"	m	class:BUFFER_ENTRY	typeref:typename:UINT8
+refCount	dftl_bufferpool.h	/^	UINT8				refCount;$/;"	m	class:BUFFER_ENTRY	typeref:typename:UINT8
+source_lpn	dftl_global.h	/^	UINT32 source_lpn[MAX_READ_CACHE_ENTRY];$/;"	m	class:Read_Cache	typeref:typename:UINT32[]

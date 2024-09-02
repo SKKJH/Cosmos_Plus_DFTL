@@ -1,0 +1,16 @@
+﻿  test_main.c
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(821): warning C4047: '=': 'unsigned int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(853): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(853): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(999): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1003): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1022): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1026): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1045): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1054): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1124): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1160): warning C4244: '=': 'unsigned __int64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1497): warning C4013: 'getcwd'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1817): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\kyuhwa\dropbox\iotl\cosmos_ssd-ioub\test\test_main.c(1825): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  dftl.vcxproj -> C:\Users\Kyuhwa\Dropbox\IOTL\Cosmos_SSD-IOUB\Build\vs2017_dftl\Debug\dftl.exe

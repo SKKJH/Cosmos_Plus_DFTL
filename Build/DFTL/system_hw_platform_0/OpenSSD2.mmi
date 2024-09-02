@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MemInfo Version="1" Minor="0">
+  <Processor Endianness="Little" InstPath="PS">
+    <AddressSpace Name="PS.axi_bram_ctrl_1" Begin="2147483648" End="2147491839">
+      <BusBlock>
+        <BitLane MemType="RAMB32" Placement="X2Y41">
+          <DataWidth MSB="15" LSB="0"/>
+          <AddressRange Begin="0" End="2047"/>
+          <Parity ON="false" NumBits="0"/>
+        </BitLane>
+        <BitLane MemType="RAMB32" Placement="X2Y40">
+          <DataWidth MSB="31" LSB="16"/>
+          <AddressRange Begin="0" End="2047"/>
+          <Parity ON="false" NumBits="0"/>
+        </BitLane>
+      </BusBlock>
+    </AddressSpace>
+    <AddressSpace Name="PS.axi_bram_ctrl_3" Begin="2147549184" End="2147557375">
+      <BusBlock>
+        <BitLane MemType="RAMB32" Placement="X2Y51">
+          <DataWidth MSB="15" LSB="0"/>
+          <AddressRange Begin="0" End="2047"/>
+          <Parity ON="false" NumBits="0"/>
+        </BitLane>
+        <BitLane MemType="RAMB32" Placement="X3Y51">
+          <DataWidth MSB="31" LSB="16"/>
+          <AddressRange Begin="0" End="2047"/>
+          <Parity ON="false" NumBits="0"/>
+        </BitLane>
+      </BusBlock>
+    </AddressSpace>
+  </Processor>
+  <Config>
+    <Option Name="Part" Val="xc7z045ffg900-3"/>
+  </Config>
+</MemInfo>

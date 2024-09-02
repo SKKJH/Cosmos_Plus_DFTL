@@ -1,0 +1,90 @@
+10:32:42 **** Auto Build of configuration Debug for project ramftl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/target/cosmos_plus/cosmos_plus_system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/cosmos_plus/cosmos_plus_system.d" -MT"src/target/cosmos_plus/cosmos_plus_system.o" -o "src/target/cosmos_plus/cosmos_plus_system.o" "D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/target/osal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/osal.d" -MT"src/target/osal.o" -o "src/target/osal.o" "D:/git/StreamFTL/cosmos_plus/Target/osal.c"
+In file included from D:/git/StreamFTL/cosmos_plus/Target/osal.c:5:0:
+../../ramftl_bsp/ps7_cortexa9_0/include/Xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/ramftl/ramftl.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/ramftl/ramftl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ramftl/ramftl.d" -MT"src/ramftl/ramftl.o" -o "src/ramftl/ramftl.o" "D:/git/StreamFTL/cosmos_plus/ftl/ramftl/ramftl.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/ramftl/ramftl.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/hil/nvme/host_lld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/host_lld.d" -MT"src/hil/nvme/host_lld.o" -o "src/hil/nvme/host_lld.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c: In function 'set_nvme_slot_release':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c:353:50: warning: 'nvmeReg.<U6720>.dword[0]' is used uninitialized in this function [-Wuninitialized]
+  IO_WRITE32(NVME_CPL_FIFO_REG_ADDR, nvmeReg.dword[0]);
+                                                  ^
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/hil/nvme/nvme_admin_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_admin_cmd.d" -MT"src/hil/nvme/nvme_admin_cmd.o" -o "src/hil/nvme/nvme_admin_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/hil/nvme/nvme_identify.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_identify.d" -MT"src/hil/nvme/nvme_identify.o" -o "src/hil/nvme/nvme_identify.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c: In function 'nvme_run':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:116:15: warning: variable 'exeLlr' set but not used [-Wunused-but-set-variable]
+  unsigned int exeLlr;   // dy, execute low level request
+               ^~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/hil.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/hil/hil.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/hil.d" -MT"src/hil/hil.o" -o "src/hil/hil.o" "D:/git/StreamFTL/cosmos_plus/hil/hil.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/hil.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/list.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/common/list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/list.d" -MT"src/common/list.o" -o "src/common/list.o" "D:/git/StreamFTL/cosmos_plus/common/list.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/common/list.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/random.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DRAM_FTL=1 -Wall -O0 -g3 -I../../ramftl_bsp/ps7_cortexa9_0/include -I../../../../fil -I../../../../hil -I../../../../Target -I../../../../Target/cosmos_plus -I../../../../common -I../../../../ftl/ramftl -I../../../../hil/nvme -I../../../../ftl -c -fmessage-length=0 -MT"src/common/random.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/random.d" -MT"src/common/random.o" -o "src/common/random.o" "D:/git/StreamFTL/cosmos_plus/common/random.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/common/random.c
+ 
+Building target: ramftl.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ramftl_bsp/ps7_cortexa9_0/lib -o "ramftl.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/ramftl/ramftl.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/hil/hil.o  ./src/common/list.o ./src/common/random.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ramftl.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ramftl.elf  |tee "ramftl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  49280	   2720	  22928	  74928	  124b0	ramftl.elf
+Finished building: ramftl.elf.size
+ 
+
+10:32:46 Build Finished (took 4s.421ms)
+

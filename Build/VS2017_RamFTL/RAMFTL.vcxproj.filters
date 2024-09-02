@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{201af9c5-68e7-4aa6-9edd-9324d08c2056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{de0ee07c-f308-4223-a35a-0bded6c4a0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target">
+      <UniqueIdentifier>{00dcf25f-d61b-4adf-bcc6-f24b6237ab4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\win">
+      <UniqueIdentifier>{0fb96300-d382-4c4d-a043-aadc802feb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fil">
+      <UniqueIdentifier>{0ddf17c5-d70b-45c0-8d31-cd499caf0320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hil">
+      <UniqueIdentifier>{b9719204-6ecf-4e9d-9570-e03960ecfa3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target\cosmos_plus">
+      <UniqueIdentifier>{d6d03a4c-5e20-42d3-875c-ab4973ef9488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAMFTL">
+      <UniqueIdentifier>{973dbb53-bab2-4f1f-ae40-9d23bd7e602f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hil\nvme">
+      <UniqueIdentifier>{ed6b8aa3-f742-4bb1-8987-aebc496b64bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Target\win\cosmos_win.c">
+      <Filter>target\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\random.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Target\osal.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Target\main.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Target\cosmos_plus\cosmos_plus_system.c">
+      <Filter>target\cosmos_plus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\test_main.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\list.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ftl\ramftl\ramftl.c">
+      <Filter>RAMFTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\test_nvme_request.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_identify.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_io_cmd.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_main.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\host_lld.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\nvme\nvme_admin_cmd.c">
+      <Filter>hil\nvme</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hil\hil.c">
+      <Filter>hil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Target\win\xuartps_hw.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\win\xil_cache.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\win\xil_mmu.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\win\xil_exception.h">
+      <Filter>target\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\random.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\cosmos_plus\cosmos_plus_system.h">
+      <Filter>target\cosmos_plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\test_main.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\osal.h">
+      <Filter>target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ramftl\ftl_config.h">
+      <Filter>RAMFTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Target\cosmos_plus\cosmos_plus_memory_map.h">
+      <Filter>target\cosmos_plus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ftl\ramftl\ramftl.h">
+      <Filter>RAMFTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\cosmos_types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\test_nvme_request.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_identify.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_io_cmd.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_main.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\host_lld.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\io_access.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\nvme\nvme_admin_cmd.h">
+      <Filter>hil\nvme</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\debug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\hil.h">
+      <Filter>hil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hil\hil_config.h">
+      <Filter>hil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fil\nsc_driver.h">
+      <Filter>fil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Target\win\bsp_windows.hl">
+      <Filter>target\win</Filter>
+    </None>
+  </ItemGroup>
+</Project>

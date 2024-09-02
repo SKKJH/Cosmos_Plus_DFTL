@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 8 resources" deleteContents="false" description="Delete 8 resources" element1="/ramftl/src/hil/hil_ftl_issued_queue.c" element2="/ramftl/src/hil/hil_ftl_issued_queue.h" element3="/ramftl/src/hil/hil_hdma_issued_queue.c" element4="/ramftl/src/hil/hil_hdma_issued_queue.h" element5="/ramftl/src/hil/hil_host_request_wait_queue.c" element6="/ramftl/src/hil/hil_host_request_wait_queue.h" element7="/ramftl/src/hil/hil_host_request.c" element8="/ramftl/src/hil/hil_host_request.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1544491919689"/>
+</session>

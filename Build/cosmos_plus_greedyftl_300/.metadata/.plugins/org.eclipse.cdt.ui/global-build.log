@@ -1,0 +1,1006 @@
+15:44:57 **** Clean-only build of configuration Debug for project GreedyFTL300 ****
+make clean 
+rm -rf  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o  ./src/target/cosmos_plus/cosmos_plus_system.d  ./src/target/main.d ./src/target/osal.d  ./src/hil/nvme/host_lld.d ./src/hil/nvme/nvme_admin_cmd.d ./src/hil/nvme/nvme_identify.d ./src/hil/nvme/nvme_io_cmd.d ./src/hil/nvme/nvme_main.d  ./src/ftl/GreedyFTL-3.0.0/address_translation.d ./src/ftl/GreedyFTL-3.0.0/data_buffer.d ./src/ftl/GreedyFTL-3.0.0/ftl_config.d ./src/ftl/GreedyFTL-3.0.0/garbage_collection.d ./src/ftl/GreedyFTL-3.0.0/request_allocation.d ./src/ftl/GreedyFTL-3.0.0/request_schedule.d ./src/ftl/GreedyFTL-3.0.0/request_transform.d  ./src/fil/nsc_driver.d  ./src/common/list.d ./src/common/random.d  GreedyFTL300.elf.size GreedyFTL300.elf.size  GreedyFTL300.elf
+ 
+15:44:58 **** Clean-only build of project GreedyFTL300_bsp ****
+make -k clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+15:44:59 **** Build of project GreedyFTL300_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_2/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_7/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+C:/Xilinx/SDK/2018.2/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+15:45:21 **** Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/cosmos_plus/cosmos_plus_system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/cosmos_plus/cosmos_plus_system.d" -MT"src/target/cosmos_plus/cosmos_plus_system.o" -o "src/target/cosmos_plus/cosmos_plus_system.o" "D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/osal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/osal.d" -MT"src/target/osal.o" -o "src/target/osal.o" "D:/git/StreamFTL/cosmos_plus/Target/osal.c"
+D:/git/StreamFTL/cosmos_plus/Target/osal.c: In function 'OSAL_SleepUS':
+D:/git/StreamFTL/cosmos_plus/Target/osal.c:62:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(nMicroSecond);
+  ^~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/host_lld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/host_lld.d" -MT"src/hil/nvme/host_lld.o" -o "src/hil/nvme/host_lld.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c: In function 'set_nvme_slot_release':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c:353:50: warning: 'nvmeReg.<U6720>.dword[0]' is used uninitialized in this function [-Wuninitialized]
+  IO_WRITE32(NVME_CPL_FIFO_REG_ADDR, nvmeReg.dword[0]);
+                                                  ^
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_admin_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_admin_cmd.d" -MT"src/hil/nvme/nvme_admin_cmd.o" -o "src/hil/nvme/nvme_admin_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_identify.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_identify.d" -MT"src/hil/nvme/nvme_identify.o" -o "src/hil/nvme/nvme_identify.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/address_translation.d" -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -o "src/ftl/GreedyFTL-3.0.0/address_translation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/data_buffer.d" -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -o "src/ftl/GreedyFTL-3.0.0/data_buffer.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/ftl_config.d" -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -o "src/ftl/GreedyFTL-3.0.0/ftl_config.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/garbage_collection.d" -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -o "src/ftl/GreedyFTL-3.0.0/garbage_collection.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_allocation.d" -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -o "src/ftl/GreedyFTL-3.0.0/request_allocation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_schedule.d" -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -o "src/ftl/GreedyFTL-3.0.0/request_schedule.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_transform.d" -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -o "src/ftl/GreedyFTL-3.0.0/request_transform.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/fil/nsc_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/fil/nsc_driver.d" -MT"src/fil/nsc_driver.o" -o "src/fil/nsc_driver.o" "D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/list.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/common/list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/list.d" -MT"src/common/list.o" -o "src/common/list.o" "D:/git/StreamFTL/cosmos_plus/common/list.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/common/list.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/random.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/common/random.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/random.d" -MT"src/common/random.o" -o "src/common/random.o" "D:/git/StreamFTL/cosmos_plus/common/random.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/common/random.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL300.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size GreedyFTL300.elf  |tee "GreedyFTL300.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 146360	   4152	  24864	 175376	  2ad10	GreedyFTL300.elf
+Finished building: GreedyFTL300.elf.size
+ 
+15:46:04 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+18:16:41 **** Auto Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/cosmos_plus/cosmos_plus_system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/cosmos_plus/cosmos_plus_system.d" -MT"src/target/cosmos_plus/cosmos_plus_system.o" -o "src/target/cosmos_plus/cosmos_plus_system.o" "D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/osal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/osal.d" -MT"src/target/osal.o" -o "src/target/osal.o" "D:/git/StreamFTL/cosmos_plus/Target/osal.c"
+In file included from D:/git/StreamFTL/cosmos_plus/Target/osal.c:5:0:
+../../GreedyFTL300_bsp/ps7_cortexa9_0/include/Xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+D:/git/StreamFTL/cosmos_plus/Target/osal.c: In function 'OSAL_SleepUS':
+D:/git/StreamFTL/cosmos_plus/Target/osal.c:65:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep(nMicroSecond);
+  ^~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/host_lld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/host_lld.d" -MT"src/hil/nvme/host_lld.o" -o "src/hil/nvme/host_lld.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c: In function 'set_nvme_slot_release':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c:353:50: warning: 'nvmeReg.<U7720>.dword[0]' is used uninitialized in this function [-Wuninitialized]
+  IO_WRITE32(NVME_CPL_FIFO_REG_ADDR, nvmeReg.dword[0]);
+                                                  ^
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_admin_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_admin_cmd.d" -MT"src/hil/nvme/nvme_admin_cmd.o" -o "src/hil/nvme/nvme_admin_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_identify.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_identify.d" -MT"src/hil/nvme/nvme_identify.o" -o "src/hil/nvme/nvme_identify.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+In file included from D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:76:0:
+d:\git\streamftl\cosmos_plus\test\test_main.h:5:10: fatal error: streamftl_types.h: No such file or directory
+ #include "streamftl_types.h"
+          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/hil/nvme/nvme_main.o] 오류 1
+09:49:02 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/cosmos_plus/cosmos_plus_system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/cosmos_plus/cosmos_plus_system.d" -MT"src/target/cosmos_plus/cosmos_plus_system.o" -o "src/target/cosmos_plus/cosmos_plus_system.o" "D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/osal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/osal.d" -MT"src/target/osal.o" -o "src/target/osal.o" "D:/git/StreamFTL/cosmos_plus/Target/osal.c"
+In file included from D:/git/StreamFTL/cosmos_plus/Target/osal.c:20:0:
+../../GreedyFTL300_bsp/ps7_cortexa9_0/include/Xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/host_lld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/host_lld.d" -MT"src/hil/nvme/host_lld.o" -o "src/hil/nvme/host_lld.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c: In function 'set_nvme_slot_release':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c:353:50: warning: 'nvmeReg.<Ua720>.dword[0]' is used uninitialized in this function [-Wuninitialized]
+  IO_WRITE32(NVME_CPL_FIFO_REG_ADDR, nvmeReg.dword[0]);
+                                                  ^
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_admin_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_admin_cmd.d" -MT"src/hil/nvme/nvme_admin_cmd.o" -o "src/hil/nvme/nvme_admin_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_identify.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_identify.d" -MT"src/hil/nvme/nvme_identify.o" -o "src/hil/nvme/nvme_identify.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/address_translation.d" -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -o "src/ftl/GreedyFTL-3.0.0/address_translation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/data_buffer.d" -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -o "src/ftl/GreedyFTL-3.0.0/data_buffer.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/ftl_config.d" -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -o "src/ftl/GreedyFTL-3.0.0/ftl_config.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/garbage_collection.d" -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -o "src/ftl/GreedyFTL-3.0.0/garbage_collection.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_allocation.d" -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -o "src/ftl/GreedyFTL-3.0.0/request_allocation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_schedule.d" -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -o "src/ftl/GreedyFTL-3.0.0/request_schedule.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_transform.d" -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -o "src/ftl/GreedyFTL-3.0.0/request_transform.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/fil/nsc_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/fil/nsc_driver.d" -MT"src/fil/nsc_driver.o" -o "src/fil/nsc_driver.o" "D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/list.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/common/list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/list.d" -MT"src/common/list.o" -o "src/common/list.o" "D:/git/StreamFTL/cosmos_plus/common/list.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/common/list.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/random.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/common/random.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/random.d" -MT"src/common/random.o" -o "src/common/random.o" "D:/git/StreamFTL/cosmos_plus/common/random.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/common/random.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL300.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size GreedyFTL300.elf  |tee "GreedyFTL300.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 146392	   4152	  24864	 175408	  2ad30	GreedyFTL300.elf
+Finished building: GreedyFTL300.elf.size
+ 
+17:20:30 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/cosmos_plus/cosmos_plus_system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/cosmos_plus/cosmos_plus_system.d" -MT"src/target/cosmos_plus/cosmos_plus_system.o" -o "src/target/cosmos_plus/cosmos_plus_system.o" "D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/cosmos_plus/cosmos_plus_system.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/osal.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/osal.d" -MT"src/target/osal.o" -o "src/target/osal.o" "D:/git/StreamFTL/cosmos_plus/Target/osal.c"
+In file included from D:/git/StreamFTL/cosmos_plus/Target/osal.c:20:0:
+../../GreedyFTL300_bsp/ps7_cortexa9_0/include/Xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/osal.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/host_lld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/host_lld.d" -MT"src/hil/nvme/host_lld.o" -o "src/hil/nvme/host_lld.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c: In function 'set_nvme_slot_release':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c:353:50: warning: 'nvmeReg.<Ua720>.dword[0]' is used uninitialized in this function [-Wuninitialized]
+  IO_WRITE32(NVME_CPL_FIFO_REG_ADDR, nvmeReg.dword[0]);
+                                                  ^
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/host_lld.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_admin_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_admin_cmd.d" -MT"src/hil/nvme/nvme_admin_cmd.o" -o "src/hil/nvme/nvme_admin_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_admin_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/address_translation.d" -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -o "src/ftl/GreedyFTL-3.0.0/address_translation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/data_buffer.d" -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -o "src/ftl/GreedyFTL-3.0.0/data_buffer.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/ftl_config.d" -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -o "src/ftl/GreedyFTL-3.0.0/ftl_config.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c:53:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:64:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/garbage_collection.d" -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -o "src/ftl/GreedyFTL-3.0.0/garbage_collection.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:51:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:64:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_allocation.d" -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -o "src/ftl/GreedyFTL-3.0.0/request_allocation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_schedule.d" -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -o "src/ftl/GreedyFTL-3.0.0/request_schedule.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_transform.d" -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -o "src/ftl/GreedyFTL-3.0.0/request_transform.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c:56:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:64:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/fil/nsc_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/fil/nsc_driver.d" -MT"src/fil/nsc_driver.o" -o "src/fil/nsc_driver.o" "D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ftl/GreedyFTL-3.0.0/ftl_config.o: In function `InitFTL':
+D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c:102: undefined reference to `STAT_Initialize'
+./src/ftl/GreedyFTL-3.0.0/garbage_collection.o: In function `GarbageCollection':
+D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:107: undefined reference to `STAT_IncreaseCount'
+D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:130: undefined reference to `STAT_IncreaseCount'
+D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:135: undefined reference to `STAT_IncreaseCount'
+./src/ftl/GreedyFTL-3.0.0/request_schedule.o: In function `IssueNandReq':
+D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c:676: undefined reference to `STAT_IncreaseCount'
+D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c:696: undefined reference to `STAT_IncreaseCount'
+./src/ftl/GreedyFTL-3.0.0/request_schedule.o:D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c:704: more undefined references to `STAT_IncreaseCount' follow
+collect2.exe: error: ld returned 1 exit status
+make: *** [GreedyFTL300.elf] 오류 1
+17:20:54 **** Auto Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/statistics.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/common/statistics.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/statistics.d" -MT"src/common/statistics.o" -o "src/common/statistics.o" "D:/git/StreamFTL/cosmos_plus/common/statistics.c"
+D:/git/StreamFTL/cosmos_plus/common/statistics.c: In function 'STAT_IncreaseCount':
+D:/git/StreamFTL/cosmos_plus/common/statistics.c:27:8: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  pnCnt = _GetProfilePointer(eType);
+        ^
+D:/git/StreamFTL/cosmos_plus/common/statistics.c: In function 'STAT_GetCount':
+D:/git/StreamFTL/cosmos_plus/common/statistics.c:34:8: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  pnCnt = _GetProfilePointer(eType);
+        ^
+Finished building: D:/git/StreamFTL/cosmos_plus/common/statistics.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o ./src/common/statistics.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL300.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size GreedyFTL300.elf  |tee "GreedyFTL300.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 146812	   4152	  25136	 176100	  2afe4	GreedyFTL300.elf
+Finished building: GreedyFTL300.elf.size
+ 
+17:21:36 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+16:30:01 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_identify.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_identify.d" -MT"src/hil/nvme/nvme_identify.o" -o "src/hil/nvme/nvme_identify.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_identify.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c: In function 'nvme_run':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:228:3: warning: implicit declaration of function 'STAT_Initialize'; did you mean 'FIL_Initialize'? [-Wimplicit-function-declaration]
+   STAT_Initialize();
+   ^~~~~~~~~~~~~~~
+   FIL_Initialize
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:234:3: warning: implicit declaration of function 'STAT_Print' [-Wimplicit-function-declaration]
+   STAT_Print();
+   ^~~~~~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/ftl_config.d" -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -o "src/ftl/GreedyFTL-3.0.0/ftl_config.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c:53:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/garbage_collection.d" -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -o "src/ftl/GreedyFTL-3.0.0/garbage_collection.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:51:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_allocation.d" -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -o "src/ftl/GreedyFTL-3.0.0/request_allocation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_schedule.d" -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -o "src/ftl/GreedyFTL-3.0.0/request_schedule.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_transform.d" -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -o "src/ftl/GreedyFTL-3.0.0/request_transform.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c:56:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/common/statistics.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/common/statistics.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/common/statistics.d" -MT"src/common/statistics.o" -o "src/common/statistics.o" "D:/git/StreamFTL/cosmos_plus/common/statistics.c"
+D:/git/StreamFTL/cosmos_plus/common/statistics.c: In function 'STAT_IncreaseCount':
+D:/git/StreamFTL/cosmos_plus/common/statistics.c:27:8: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  pnCnt = _GetProfilePointer(eType);
+        ^
+D:/git/StreamFTL/cosmos_plus/common/statistics.c: In function 'STAT_GetCount':
+D:/git/StreamFTL/cosmos_plus/common/statistics.c:34:8: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+  pnCnt = _GetProfilePointer(eType);
+        ^
+Finished building: D:/git/StreamFTL/cosmos_plus/common/statistics.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o ./src/common/statistics.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL300.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size GreedyFTL300.elf  |tee "GreedyFTL300.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 147988	   4320	  25200	 177508	  2b564	GreedyFTL300.elf
+Finished building: GreedyFTL300.elf.size
+ 
+16:30:49 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+17:13:56 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+17:25:07 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+19:26:13 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+19:26:34 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+10:20:29 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c: In function 'nvme_run':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:228:3: warning: implicit declaration of function 'STAT_Initialize'; did you mean 'FIL_Initialize'? [-Wimplicit-function-declaration]
+   STAT_Initialize();
+   ^~~~~~~~~~~~~~~
+   FIL_Initialize
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:234:3: warning: implicit declaration of function 'STAT_Print' [-Wimplicit-function-declaration]
+   STAT_Print();
+   ^~~~~~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/address_translation.d" -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -o "src/ftl/GreedyFTL-3.0.0/address_translation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/data_buffer.d" -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -o "src/ftl/GreedyFTL-3.0.0/data_buffer.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/ftl_config.d" -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -o "src/ftl/GreedyFTL-3.0.0/ftl_config.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c:53:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/garbage_collection.d" -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -o "src/ftl/GreedyFTL-3.0.0/garbage_collection.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:51:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_allocation.d" -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -o "src/ftl/GreedyFTL-3.0.0/request_allocation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_schedule.d" -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -o "src/ftl/GreedyFTL-3.0.0/request_schedule.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_transform.d" -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -o "src/ftl/GreedyFTL-3.0.0/request_transform.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c:56:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/fil/nsc_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/fil/nsc_driver.d" -MT"src/fil/nsc_driver.o" -o "src/fil/nsc_driver.o" "D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o ./src/common/statistics.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL300.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size GreedyFTL300.elf  |tee "GreedyFTL300.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 147988	   4320	  24432	 176740	  2b264	GreedyFTL300.elf
+Finished building: GreedyFTL300.elf.size
+ 
+10:20:58 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+10:23:38 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+10:49:31 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+11:32:02 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+12:01:48 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c: In function 'nvme_run':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:228:3: warning: implicit declaration of function 'STAT_Initialize'; did you mean 'FIL_Initialize'? [-Wimplicit-function-declaration]
+   STAT_Initialize();
+   ^~~~~~~~~~~~~~~
+   FIL_Initialize
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:234:3: warning: implicit declaration of function 'STAT_Print' [-Wimplicit-function-declaration]
+   STAT_Print();
+   ^~~~~~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/address_translation.d" -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -o "src/ftl/GreedyFTL-3.0.0/address_translation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/data_buffer.d" -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -o "src/ftl/GreedyFTL-3.0.0/data_buffer.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/ftl_config.d" -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -o "src/ftl/GreedyFTL-3.0.0/ftl_config.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c:53:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/garbage_collection.d" -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -o "src/ftl/GreedyFTL-3.0.0/garbage_collection.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:51:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_allocation.d" -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -o "src/ftl/GreedyFTL-3.0.0/request_allocation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_schedule.d" -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -o "src/ftl/GreedyFTL-3.0.0/request_schedule.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_transform.d" -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -o "src/ftl/GreedyFTL-3.0.0/request_transform.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c:56:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/fil/nsc_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/fil/nsc_driver.d" -MT"src/fil/nsc_driver.o" -o "src/fil/nsc_driver.o" "D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o ./src/common/statistics.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL300.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size GreedyFTL300.elf  |tee "GreedyFTL300.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 147988	   4320	  25200	 177508	  2b564	GreedyFTL300.elf
+Finished building: GreedyFTL300.elf.size
+ 
+12:01:57 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+13:58:19 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+17:00:49 **** Auto Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/Target/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/target/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/target/main.d" -MT"src/target/main.o" -o "src/target/main.o" "D:/git/StreamFTL/cosmos_plus/Target/main.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/Target/main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_io_cmd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_io_cmd.d" -MT"src/hil/nvme/nvme_io_cmd.o" -o "src/hil/nvme/nvme_io_cmd.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_io_cmd.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/hil/nvme/nvme_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/hil/nvme/nvme_main.d" -MT"src/hil/nvme/nvme_main.o" -o "src/hil/nvme/nvme_main.o" "D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c"
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c: In function 'nvme_run':
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:228:3: warning: implicit declaration of function 'STAT_Initialize'; did you mean 'FIL_Initialize'? [-Wimplicit-function-declaration]
+   STAT_Initialize();
+   ^~~~~~~~~~~~~~~
+   FIL_Initialize
+D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c:234:3: warning: implicit declaration of function 'STAT_Print' [-Wimplicit-function-declaration]
+   STAT_Print();
+   ^~~~~~~~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/hil/nvme/nvme_main.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/address_translation.d" -MT"src/ftl/GreedyFTL-3.0.0/address_translation.o" -o "src/ftl/GreedyFTL-3.0.0/address_translation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/address_translation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/data_buffer.d" -MT"src/ftl/GreedyFTL-3.0.0/data_buffer.o" -o "src/ftl/GreedyFTL-3.0.0/data_buffer.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/data_buffer.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/ftl_config.d" -MT"src/ftl/GreedyFTL-3.0.0/ftl_config.o" -o "src/ftl/GreedyFTL-3.0.0/ftl_config.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c:53:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/ftl_config.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/garbage_collection.d" -MT"src/ftl/GreedyFTL-3.0.0/garbage_collection.o" -o "src/ftl/GreedyFTL-3.0.0/garbage_collection.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c:51:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/garbage_collection.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_allocation.d" -MT"src/ftl/GreedyFTL-3.0.0/request_allocation.o" -o "src/ftl/GreedyFTL-3.0.0/request_allocation.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_allocation.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_schedule.d" -MT"src/ftl/GreedyFTL-3.0.0/request_schedule.o" -o "src/ftl/GreedyFTL-3.0.0/request_schedule.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_schedule.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ftl/GreedyFTL-3.0.0/request_transform.d" -MT"src/ftl/GreedyFTL-3.0.0/request_transform.o" -o "src/ftl/GreedyFTL-3.0.0/request_transform.o" "D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c"
+In file included from D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c:56:0:
+d:\git\streamftl\cosmos_plus\common\statistics.h:66:2: warning: parameter names (without types) in function declaration
+  void STAT_Initialize(VOID);
+  ^~~~
+Finished building: D:/git/StreamFTL/cosmos_plus/ftl/GreedyFTL-3.0.0/request_transform.c
+ 
+Building file: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DGREEDY_FTL=1 -Wall -O0 -g3 -I../../GreedyFTL300_bsp/ps7_cortexa9_0/include -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../ftl/GreedyFTL-3.0.0" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../hil" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../target/cosmos_plus" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../test" -I"D:/git/StreamFTL/cosmos_plus/Build/cosmos_plus_greedyftl_300/GreedyFTL300/../../../common" -I../../../../hil/nvme -I../../../../target -I../../../../osal -c -fmessage-length=0 -MT"src/fil/nsc_driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/fil/nsc_driver.d" -MT"src/fil/nsc_driver.o" -o "src/fil/nsc_driver.o" "D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c"
+Finished building: D:/git/StreamFTL/cosmos_plus/fil/nsc_driver.c
+ 
+Building target: GreedyFTL300.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL300_bsp/ps7_cortexa9_0/lib -o "GreedyFTL300.elf"  ./src/target/cosmos_plus/cosmos_plus_system.o  ./src/target/main.o ./src/target/osal.o  ./src/hil/nvme/host_lld.o ./src/hil/nvme/nvme_admin_cmd.o ./src/hil/nvme/nvme_identify.o ./src/hil/nvme/nvme_io_cmd.o ./src/hil/nvme/nvme_main.o  ./src/ftl/GreedyFTL-3.0.0/address_translation.o ./src/ftl/GreedyFTL-3.0.0/data_buffer.o ./src/ftl/GreedyFTL-3.0.0/ftl_config.o ./src/ftl/GreedyFTL-3.0.0/garbage_collection.o ./src/ftl/GreedyFTL-3.0.0/request_allocation.o ./src/ftl/GreedyFTL-3.0.0/request_schedule.o ./src/ftl/GreedyFTL-3.0.0/request_transform.o  ./src/fil/nsc_driver.o  ./src/common/list.o ./src/common/random.o ./src/common/statistics.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL300.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size GreedyFTL300.elf  |tee "GreedyFTL300.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 147988	   4320	  24432	 176740	  2b264	GreedyFTL300.elf
+Finished building: GreedyFTL300.elf.size
+ 
+17:14:49 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+17:15:08 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+17:59:59 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다
+18:00:22 **** Incremental Build of configuration Debug for project GreedyFTL300 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: `main-build'를 위해 할 일이 없습니다

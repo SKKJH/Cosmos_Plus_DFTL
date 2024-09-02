@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7E66142D-E448-41C5-AA2E-2CAA10E1A571}</ProjectGuid>
+    <RootNamespace>GreedyFTL300</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>dftl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\..\target;$(SolutionDir)\..\..\target\win;$(SolutionDir)\..\..\target\cosmos_plus\ps7_cortexa9_0\include;$(SolutionDir)\..\..\test;$(SolutionDir)\..\..\common;$(SolutionDir)\..\..\fil;$(SolutionDir)\..\..\hil;$(SolutionDir)\..\..\target\cosmos_plus;$(SolutionDir)\..\..\ftl;$(SolutionDir)\..\..\hil\nvme;$(SolutionDir)\..\..\ftl\dftl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);__GNUC__;WIN32;DFTL;_CRT_SECURE_NO_WARNINGS;COSMOS_PLUS;</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <XMLDocumentationFileName>$(IntDir)</XMLDocumentationFileName>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\list.c" />
+    <ClCompile Include="..\..\common\random.c" />
+    <ClCompile Include="..\..\common\statistics.c" />
+    <ClCompile Include="..\..\common\util.c" />
+    <ClCompile Include="..\..\fil\fil.c" />
+    <ClCompile Include="..\..\fil\fil_nand.c" />
+    <ClCompile Include="..\..\fil\fil_request.c" />
+    <ClCompile Include="..\..\fil\nsc_driver.c" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_activeblock.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_block.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_bufferpool.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_garbagecollector.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_global.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_external_interface.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_hdma.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_meta.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_request.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_request_gc.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_request_hil.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_request_meta.cpp" />
+    <ClCompile Include="..\..\ftl\dftl\dftl_vnand.cpp" />
+    <ClCompile Include="..\..\hil\hil.c" />
+    <ClCompile Include="..\..\hil\nvme\host_lld.c" />
+    <ClCompile Include="..\..\hil\nvme\nvme_admin_cmd.c" />
+    <ClCompile Include="..\..\hil\nvme\nvme_identify.c" />
+    <ClCompile Include="..\..\hil\nvme\nvme_io_cmd.c" />
+    <ClCompile Include="..\..\hil\nvme\nvme_main.c" />
+    <ClCompile Include="..\..\Target\cosmos_plus\cosmos_plus_system.c" />
+    <ClCompile Include="..\..\Target\main.c" />
+    <ClCompile Include="..\..\Target\osal.c" />
+    <ClCompile Include="..\..\Target\win\cosmos_win.c" />
+    <ClCompile Include="..\..\test\test_main.c" />
+    <ClCompile Include="..\..\test\test_nvme_request.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\cosmos_types.h" />
+    <ClInclude Include="..\..\common\debug.h" />
+    <ClInclude Include="..\..\common\list.h" />
+    <ClInclude Include="..\..\common\random.h" />
+    <ClInclude Include="..\..\common\statistics.h" />
+    <ClInclude Include="..\..\common\util.h" />
+    <ClInclude Include="..\..\fil\fil.h" />
+    <ClInclude Include="..\..\fil\fil_nand.h" />
+    <ClInclude Include="..\..\fil\fil_config.h" />
+    <ClInclude Include="..\..\fil\fil_request.h" />
+    <ClInclude Include="..\..\fil\nsc_driver.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_activeblock.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_block.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_bufferpool.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_config.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_external_interface.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_garbagecollector.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_global.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_hdma.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_internal.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_meta.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_request.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_request_gc.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_request_hil.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_request_meta.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_types.h" />
+    <ClInclude Include="..\..\ftl\dftl\dftl_vnand.h" />
+    <ClInclude Include="..\..\ftl\ftl.h" />
+    <ClInclude Include="..\..\hil\hil.h" />
+    <ClInclude Include="..\..\hil\hil_config.h" />
+    <ClInclude Include="..\..\hil\nvme\host_lld.h" />
+    <ClInclude Include="..\..\hil\nvme\io_access.h" />
+    <ClInclude Include="..\..\hil\nvme\nvme.h" />
+    <ClInclude Include="..\..\hil\nvme\nvme_admin_cmd.h" />
+    <ClInclude Include="..\..\hil\nvme\nvme_identify.h" />
+    <ClInclude Include="..\..\hil\nvme\nvme_io_cmd.h" />
+    <ClInclude Include="..\..\hil\nvme\nvme_main.h" />
+    <ClInclude Include="..\..\Target\cosmos+\ps7_cortexa9_0\include\xil_printf.h" />
+    <ClInclude Include="..\..\Target\cosmos+\ps7_cortexa9_0\include\xscugic.h" />
+    <ClInclude Include="..\..\Target\cosmos_plus\cosmos_plus_memory_map.h" />
+    <ClInclude Include="..\..\Target\cosmos_plus\cosmos_plus_system.h" />
+    <ClInclude Include="..\..\Target\cosmos_plus_global_config.h" />
+    <ClInclude Include="..\..\Target\osal.h" />
+    <ClInclude Include="..\..\Target\win\xil_cache.h" />
+    <ClInclude Include="..\..\Target\win\xil_exception.h" />
+    <ClInclude Include="..\..\Target\win\xil_mmu.h" />
+    <ClInclude Include="..\..\Target\win\xuartps_hw.h" />
+    <ClInclude Include="..\..\test\test_main.h" />
+    <ClInclude Include="..\..\test\test_nvme_request.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Target\win\bsp_windows.hl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
